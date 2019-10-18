@@ -1,0 +1,109 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_19.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+          0 1114.9   3.8          0 1114.8   3.8    1.0  1  WP_048111146.1  coenzyme-B sulfoethylthiotransferase subunit 
+          0 1069.2   2.8          0 1069.0   2.8    1.0  1  WP_015286563.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_048111146.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1114.8   3.8         0         0       1     568 []       1     568 []       1     568 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1114.8 bits;  conditional E-value: 0
+       alignmcrA   1 makiersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegdd 95 
+                     ma +e+sqk flkalkekf+gqdv+s+ + +yk+ gv+qsprk efm a++ ie drgismydpe++hl gipmgqrqlmtyevsgtg fvegdd
+  WP_048111146.1   1 MASVEHSQKQFLKALKEKFKGQDVESQKTGFYKFGGVQQSPRKREFMAATKKIEADRGISMYDPEHCHLNGIPMGQRQLMTYEVSGTGTFVEGDD 95 
+                     899******************************************************************************************** PP
+
+       alignmcrA  96 lhfvnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqf 190
+                     lh+vnn+a+qq+ d+i+rt+iv md+ah+tlqkrlgkevtp+tineylhilnhampg avvqehmvet pglvddcyvk+ftg++e+add+epq+
+  WP_048111146.1  96 LHYVNNSAIQQMSDEIKRTIIVGMDIAHNTLQKRLGKEVTPQTINEYLHILNHAMPGGAVVQEHMVETNPGLVDDCYVKIFTGNDEVADDIEPQY 190
+                     *********************************************************************************************** PP
+
+       alignmcrA 191 vldveklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargp 285
+                     +l++eklfp kqaeal a +gks++qaih+pt v rtcdggttsrwsamqigmsfiaayr cageaavadlsfaakhagviqm s lparrargp
+  WP_048111146.1 191 LLNIEKLFPKKQAEALKAEIGKSMYQAIHVPTIVVRTCDGGTTSRWSAMQIGMSFIAAYRTCAGEAAVADLSFAAKHAGVIQMGSHLPARRARGP 285
+                     *********************************************************************************************** PP
+
+       alignmcrA 286 nepgglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandk 380
+                     nepgg+ fg+fsd++q++rkyp+dpakaslevv ag+ l+dqiwlgsymsggvgftqyataaytdnild+ftyygmdy+kdky  ++++p a+  
+  WP_048111146.1 286 NEPGGIKFGMFSDMIQADRKYPDDPAKASLEVVAAGAALFDQIWLGSYMSGGVGFTQYATAAYTDNILDDFTYYGMDYVKDKYGYNFRQPGADKV 380
+                     *********************************************************************************************** PP
+
+       alignmcrA 381 vkptydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsans 475
+                     ++pt divnd+atevtl +meqye+fpt+medhfggsqra v+aaa+gl+t+i+tgnsnagln wylsm++hkdgwsrlgffgydlqdqcgsans
+  WP_048111146.1 381 IRPTQDIVNDIATEVTLYSMEQYEKFPTLMEDHFGGSQRAAVMAAAAGLSTSITTGNSNAGLNAWYLSMIIHKDGWSRLGFFGYDLQDQCGSANS 475
+                     *********************************************************************************************** PP
+
+       alignmcrA 476 lsirgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     ls+  d ga+gelrgpnypnyamnvghqgeyaaiv  +hygr da+cfdprvki fadp+lkfdf+epr+efa+gairef  agersli+par
+  WP_048111146.1 476 LSMEPDRGAMGELRGPNYPNYAMNVGHQGEYAAIVASAHYGRADAFCFDPRVKITFADPSLKFDFSEPRKEFARGAIREFEAAGERSLIMPAR 568
+                     ********************************************************************************************8 PP
+
+>> WP_015286563.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1069.0   2.8         0         0       2     568 .]       5     562 .]       4     562 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 1069.0 bits;  conditional E-value: 0
+       alignmcrA   2 akiersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddl 96 
+                     akier+qklflka+kekf  +d q++ a  +k +g+ qsprkmef+ka +a emdrgismydp r+h ggip+gqrqlmtye+s tgvfvegdd 
+  WP_015286563.1   5 AKIERTQKLFLKAMKEKFA-EDPQAQ-ATVFKREGLSQSPRKMEFVKAGKAAEMDRGISMYDPARCHCGGIPLGQRQLMTYEISSTGVFVEGDDC 97 
+                     8*****************6.577765.6789**************************************************************** PP
+
+       alignmcrA  97 hfvnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfv 191
+                     hfvnnaamqq+wddirrt+iv +dlah tlqkrlgkevtpetineylh+lnhampgaavvqehmvethp lvddcyvkvftgd+e+addlepqfv
+  WP_015286563.1  98 HFVNNAAMQQMWDDIRRTIIVGLDLAHGTLQKRLGKEVTPETINEYLHVLNHAMPGAAVVQEHMVETHPSLVDDCYVKVFTGDDEMADDLEPQFV 192
+                     *********************************************************************************************** PP
+
+       alignmcrA 192 ldveklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpn 286
+                     l+v+klfpakqa  l aavgks+wqa+hipt vsrtcdggttsrwsamqigmsfi ay+mcageaavadl+faakhagviqma +lparrargpn
+  WP_015286563.1 193 LNVDKLFPAKQAAQLKAAVGKSMWQAVHIPTIVSRTCDGGTTSRWSAMQIGMSFIGAYKMCAGEAAVADLAFAAKHAGVIQMADILPARRARGPN 287
+                     *********************************************************************************************** PP
+
+       alignmcrA 287 epgglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkv 381
+                     epgg+ fg f+d++q++rkypndp +aslevv  g ml+dqiwlgsymsggvgftqyataaytdnild+ft yg+dy+k k+        a  kv
+  WP_015286563.1 288 EPGGIKFGHFADMIQSDRKYPNDPVRASLEVVAGGCMLFDQIWLGSYMSGGVGFTQYATAAYTDNILDDFTSYGVDYVKKKH-------GALGKV 375
+                     ******************************************************************************9875.......6899** PP
+
+       alignmcrA 382 kptydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsansl 476
+                     k t d+vnd+a+evtl  meqye+fpt +e hfggsqra v+aaasg++ta+at nsnaglngwy+sml+hk+ wsrlgffgydlqdqcgsans+
+  WP_015286563.1 376 KATQDVVNDIASEVTLYGMEQYEEFPTTLESHFGGSQRATVLAAASGVSTALATANSNAGLNGWYMSMLMHKEAWSRLGFFGYDLQDQCGSANSM 470
+                     *********************************************************************************************** PP
+
+       alignmcrA 477 sirgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     s+r deg +gelrgpnypnyamnvghqg ya i g +h  rgdaw++ p +ki f+dp+lkfdf+e rrefakgairefmpagersliipa+
+  WP_015286563.1 471 SVRPDEGLLGELRGPNYPNYAMNVGHQGGYAGIAGAAHIARGDAWALSPLMKITFSDPSLKFDFSEVRREFAKGAIREFMPAGERSLIIPAK 562
+                     ******************************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2788  (806841 residues searched)
+Passed MSV filter:                        67  (0.0240316); expected 55.8 (0.02)
+Passed bias filter:                       57  (0.0204448); expected 55.8 (0.02)
+Passed Vit filter:                         9  (0.00322812); expected 2.8 (0.001)
+Passed Fwd filter:                         2  (0.00071736); expected 0.0 (1e-05)
+Initial search space (Z):               2788  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.03
+# Mc/sec: 11497.20
+//
+[ok]

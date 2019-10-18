@@ -7,70 +7,2535 @@
 # target sequence database:        proteomes/proteome_50.fasta
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-Query:       alignmcrA  [M=558]
+Query:       alignmcrA  [M=568]
 Scores for complete sequences (score includes all domains):
    --- full sequence ---   --- best 1 domain ---    -#dom-
     E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
     ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
-          0 1117.1   2.5          0 1116.9   2.5    1.0  1  WP_048120720.1  MULTISPECIES: coenzyme-B sulfoethylthiotransf
+   2.9e-258  856.0   4.1   3.4e-258  855.7   4.1    1.0  1  WP_048120720.1  MULTISPECIES: coenzyme-B sulfoethylthiotransf
 
 
 Domain annotation for each sequence (and alignments):
 >> WP_048120720.1  MULTISPECIES: coenzyme-B sulfoethylthiotransferase subunit alpha 
    #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
  ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
-   1 ! 1116.9   2.5         0         0       2     558 .]       2     570 .]       1     570 [] 0.99
+   1 !  855.7   4.1  9.9e-262  3.4e-258      17     568 .]      24     570 .]      10     570 .] 0.97
 
   Alignments for each domain:
-  == domain 1  score: 1116.9 bits;  conditional E-value: 0
-       alignmcrA   2 veeekkkflkalkkkfeee.........ditekttkfyrlggwkqsarkkelvkaakeiaekrGialynpdvhaGvplGqralmpykvsgtdivv 87 
-                     ++++++kf+k++++kf++e         dit kt+kf+rlg+ +q++rk+e++ka+keiaekrGi++ynp++h+G+plGqra++py++sgtdiv+
-  WP_048120720.1   2 AADIFSKFKKDMEVKFAQEfgankqtggDITGKTEKFLRLGP-EQDPRKVEMIKAGKEIAEKRGISFYNPMMHSGAPLGQRAITPYTISGTDIVA 95 
-                     678899************************************.**************************************************** PP
+  == domain 1  score: 855.7 bits;  conditional E-value: 9.9e-262
+       alignmcrA  17 ekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhfvnnaamqqfwddi 111
+                     +k  g d+   t ++ +  g  q prk+e++ka + i   rgis+y+p   h  g p+gqr +  y +sgt ++ e ddlh+vnnaamqq+wddi
+  WP_048120720.1  24 NKQTGGDITGKTEKFLR-LGPEQDPRKVEMIKAGKEIAEKRGISFYNPMM-H-SGAPLGQRAITPYTISGTDIVAEPDDLHYVNNAAMQQMWDDI 115
+                     56678888888766665.5899**************************74.4.689*************************************** PP
 
-       alignmcrA  88 egddlhfvnnaalqqlwddirrtvivgldtahevlekrlgkevtpetineylevlnhalpGaavvqehmvethpalvddcyvkvftGddeladei 182
-                     e+ddlh+vnnaa+qq+wddirrt++vgld+ahe+lekrlgkevtpetin+ylevlnha+pGaavvqe+mvethpalvddcyvkvftGdd+ladei
-  WP_048120720.1  96 EPDDLHYVNNAAMQQMWDDIRRTCVVGLDMAHETLEKRLGKEVTPETINHYLEVLNHAMPGAAVVQEMMVETHPALVDDCYVKVFTGDDALADEI 190
+       alignmcrA 112 rrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvldveklfpakqaeal 206
+                     rrt +v +d+ah+tl+krlgkevtpetin yl +lnhampgaavvqe mvethp lvddcyvkvftgd+ lad+++ q+++d++k f  +qa  +
+  WP_048120720.1 116 RRTCVVGLDMAHETLEKRLGKEVTPETINHYLEVLNHAMPGAAVVQEMMVETHPALVDDCYVKVFTGDDALADEIDKQYLIDINKEFSEEQAAQI 210
                      *********************************************************************************************** PP
 
-       alignmcrA 183 dkqfvidinkefpeeqaeqlkaaiGkttwqavriptivsrvtdGgttsrwsamqigmsfisayklcaGeaavadlsyaakhaevvsmgellparr 277
-                     dkq++idinkef+eeqa+q+ka+iGkt wqa++iptivsr+tdG++t+rw+amqigmsfisay++caGeaavadls+aakha+ vsmge+lparr
-  WP_048120720.1 191 DKQYLIDINKEFSEEQAAQIKASIGKTSWQAIHIPTIVSRTTDGAQTTRWAAMQIGMSFISAYAMCAGEAAVADLSFAAKHAAAVSMGEMLPARR 285
+       alignmcrA 207 saavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnepgglafglfsdivq 301
+                      a++gk+ wqaihipt vsrt dg  t+rw+amqigmsfi+ay mcageaavadlsfaakha  + m  +lparrargpnepggl+fg +sdi+q
+  WP_048120720.1 211 KASIGKTSWQAIHIPTIVSRTTDGAQTTRWAAMQIGMSFISAYAMCAGEAAVADLSFAAKHAAAVSMGEMLPARRARGPNEPGGLSFGHLSDIIQ 305
                      *********************************************************************************************** PP
 
-       alignmcrA 278 argpnepGGlsfGvladivqtsrvsaddpakvslevvaagamlydqiwlGsymsGGvGftqyataaytddilddftyydvdyiedkyeglaev.. 370
-                     argpnepGGlsfG+l+di+qtsrvs +dpak++levv+ag+mlydqiwlGsymsGGvGftqyataaytddild+++yydvdyi+dky+g+a+v  
-  WP_048120720.1 286 ARGPNEPGGLSFGHLSDIIQTSRVS-KDPAKIALEVVGAGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDNNVYYDVDYINDKYNGAANVgk 379
-                     *************************.9*****************************************************************999 PP
+       alignmcrA 302 tnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkptydivndmatevt 396
+                     t r   +dpak +levvgag mlydqiwlgsymsggvgftqyataaytd+ild+  yy +dyi+dky+    n   ++kvk + d+v+d+ate t
+  WP_048120720.1 306 TSRV-SKDPAKIALEVVGAGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDNNVYYDVDYINDKYNGA-ANVGKDNKVKASLDVVKDIATEST 398
+                     *985.79************************************************************965.7889999***************** PP
 
-       alignmcrA 371 ...vkatldvvkdiatevtlyaleqyekypalledhfGGsqratvlaaaaGvatalatgnanaGlsgwylsmllhkeahsrlGffGydlqdqcGa 462
-                        vka+ldvvkdiate+tly++e+yek+p++ledhfGGsqratvlaaaaGva++lat+nanaGlsgwylsm+lhkea++rlGffG+dlqdqcGa
-  WP_048120720.1 380 dnkVKASLDVVKDIATESTLYGIETYEKFPTALEDHFGGSQRATVLAAAAGVACSLATANANAGLSGWYLSMYLHKEAWGRLGFFGFDLQDQCGA 474
-                     999******************************************************************************************** PP
+       alignmcrA 397 lnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsirgdegaigelrgp 491
+                     l  +e ye+fpt +edhfggsqra v+aaa+g++ ++at n+nagl gwylsm lhk+ w rlgffg+dlqdqcg++n ls +gdeg   elrgp
+  WP_048120720.1 399 LYGIETYEKFPTALEDHFGGSQRATVLAAAAGVACSLATANANAGLSGWYLSMYLHKEAWGRLGFFGFDLQDQCGATNVLSYQGDEGLPDELRGP 493
+                     *********************************************************************************************** PP
 
-       alignmcrA 463 anvlsyrsdeglplelrGpnypnyamnvGhqgeyagiaqaahaargdafalnplikvafaddslvfdfaeprkefarGalrefepaGersliipa 557
-                     +nvlsy++deglp+elrGpnypnyamnvGhqg+yagiaqaah++rgdaf++nplikv+fadd+l+f+faepr+ef+rGa+ref+paGersl+ipa
-  WP_048120720.1 475 TNVLSYQGDEGLPDELRGPNYPNYAMNVGHQGGYAGIAQAAHSGRGDAFTVNPLIKVCFADDLLPFNFAEPRREFGRGAMREFVPAGERSLVIPA 569
-                     **********************************************************************************************9 PP
-
-       alignmcrA 558 k 558
-                     k
-  WP_048120720.1 570 K 570
-                     7 PP
+       alignmcrA 492 nypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     nypnyamnvghqg ya i   +h grgda+ ++p +k+cfad  l f+faeprref +ga+ref+pagersl+ipa+
+  WP_048120720.1 494 NYPNYAMNVGHQGGYAGIAQAAHSGRGDAFTVNPLIKVCFADDLLPFNFAEPRREFGRGAMREFVPAGERSLVIPAK 570
+                     ***************************************************************************96 PP
 
 
 
 Internal pipeline statistics summary:
 -------------------------------------
-Query model(s):                            1  (558 nodes)
+Query model(s):                            1  (568 nodes)
 Target sequences:                       3436  (1017542 residues searched)
-Passed MSV filter:                        93  (0.0270664); expected 68.7 (0.02)
-Passed bias filter:                       66  (0.0192084); expected 68.7 (0.02)
-Passed Vit filter:                         4  (0.00116414); expected 3.4 (0.001)
+Passed MSV filter:                        65  (0.0189173); expected 68.7 (0.02)
+Passed bias filter:                       53  (0.0154249); expected 68.7 (0.02)
+Passed Vit filter:                         3  (0.000873108); expected 3.4 (0.001)
 Passed Fwd filter:                         1  (0.000291036); expected 0.0 (1e-05)
 Initial search space (Z):               3436  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
 # CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
-# Mc/sec: 21533.20
+# Mc/sec: 22389.55
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_01.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2486  (800122 residues searched)
+Passed MSV filter:                        57  (0.0229284); expected 49.7 (0.02)
+Passed bias filter:                       41  (0.0164924); expected 49.7 (0.02)
+Passed Vit filter:                         1  (0.000402253); expected 2.5 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               2486  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 18738.77
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_02.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       1862  (541041 residues searched)
+Passed MSV filter:                        39  (0.0209452); expected 37.2 (0.02)
+Passed bias filter:                       38  (0.0204082); expected 37.2 (0.02)
+Passed Vit filter:                         3  (0.00161117); expected 1.9 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               1862  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 12805.42
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_03.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   2.9e-258  856.0   4.1   3.4e-258  855.7   4.1    1.0  1  WP_048120720.1  MULTISPECIES: coenzyme-B sulfoethylthiotransf
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_048120720.1  MULTISPECIES: coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  855.7   4.1  9.9e-262  3.4e-258      17     568 .]      24     570 .]      10     570 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 855.7 bits;  conditional E-value: 9.9e-262
+       alignmcrA  17 ekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhfvnnaamqqfwddi 111
+                     +k  g d+   t ++ +  g  q prk+e++ka + i   rgis+y+p   h  g p+gqr +  y +sgt ++ e ddlh+vnnaamqq+wddi
+  WP_048120720.1  24 NKQTGGDITGKTEKFLR-LGPEQDPRKVEMIKAGKEIAEKRGISFYNPMM-H-SGAPLGQRAITPYTISGTDIVAEPDDLHYVNNAAMQQMWDDI 115
+                     56678888888766665.5899**************************74.4.689*************************************** PP
+
+       alignmcrA 112 rrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvldveklfpakqaeal 206
+                     rrt +v +d+ah+tl+krlgkevtpetin yl +lnhampgaavvqe mvethp lvddcyvkvftgd+ lad+++ q+++d++k f  +qa  +
+  WP_048120720.1 116 RRTCVVGLDMAHETLEKRLGKEVTPETINHYLEVLNHAMPGAAVVQEMMVETHPALVDDCYVKVFTGDDALADEIDKQYLIDINKEFSEEQAAQI 210
+                     *********************************************************************************************** PP
+
+       alignmcrA 207 saavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnepgglafglfsdivq 301
+                      a++gk+ wqaihipt vsrt dg  t+rw+amqigmsfi+ay mcageaavadlsfaakha  + m  +lparrargpnepggl+fg +sdi+q
+  WP_048120720.1 211 KASIGKTSWQAIHIPTIVSRTTDGAQTTRWAAMQIGMSFISAYAMCAGEAAVADLSFAAKHAAAVSMGEMLPARRARGPNEPGGLSFGHLSDIIQ 305
+                     *********************************************************************************************** PP
+
+       alignmcrA 302 tnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkptydivndmatevt 396
+                     t r   +dpak +levvgag mlydqiwlgsymsggvgftqyataaytd+ild+  yy +dyi+dky+    n   ++kvk + d+v+d+ate t
+  WP_048120720.1 306 TSRV-SKDPAKIALEVVGAGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDNNVYYDVDYINDKYNGA-ANVGKDNKVKASLDVVKDIATEST 398
+                     *985.79************************************************************965.7889999***************** PP
+
+       alignmcrA 397 lnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsirgdegaigelrgp 491
+                     l  +e ye+fpt +edhfggsqra v+aaa+g++ ++at n+nagl gwylsm lhk+ w rlgffg+dlqdqcg++n ls +gdeg   elrgp
+  WP_048120720.1 399 LYGIETYEKFPTALEDHFGGSQRATVLAAAAGVACSLATANANAGLSGWYLSMYLHKEAWGRLGFFGFDLQDQCGATNVLSYQGDEGLPDELRGP 493
+                     *********************************************************************************************** PP
+
+       alignmcrA 492 nypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     nypnyamnvghqg ya i   +h grgda+ ++p +k+cfad  l f+faeprref +ga+ref+pagersl+ipa+
+  WP_048120720.1 494 NYPNYAMNVGHQGGYAGIAQAAHSGRGDAFTVNPLIKVCFADDLLPFNFAEPRREFGRGAMREFVPAGERSLVIPAK 570
+                     ***************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3436  (1017542 residues searched)
+Passed MSV filter:                        65  (0.0189173); expected 68.7 (0.02)
+Passed bias filter:                       53  (0.0154249); expected 68.7 (0.02)
+Passed Vit filter:                         3  (0.000873108); expected 3.4 (0.001)
+Passed Fwd filter:                         1  (0.000291036); expected 0.0 (1e-05)
+Initial search space (Z):               3436  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.03
+# Mc/sec: 18022.83
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_04.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2777  (917255 residues searched)
+Passed MSV filter:                        80  (0.0288081); expected 55.5 (0.02)
+Passed bias filter:                       58  (0.0208858); expected 55.5 (0.02)
+Passed Vit filter:                         5  (0.0018005); expected 2.8 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               2777  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 23660.38
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_05.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+          0 1169.3   0.6          0 1169.2   0.6    1.0  1  WP_011449112.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_011449112.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1169.2   0.6         0         0       1     568 []       1     567 []       1     567 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 1169.2 bits;  conditional E-value: 0
+       alignmcrA   1 makiersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegdd 95 
+                     makier+qklflkalk kf+g dv    + +y++ g+ qsprk efm+as+ +e+ rgismydp+r+hlgg+pmgqrqlmtyevsgtg fvegdd
+  WP_011449112.1   1 MAKIERAQKLFLKALKTKFEG-DVADTKTGFYNFGGLNQSPRKKEFMEASKKVELRRGISMYDPNRCHLGGLPMGQRQLMTYEVSGTGTFVEGDD 94 
+                     9*******************9.67777778***************************************************************** PP
+
+       alignmcrA  96 lhfvnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqf 190
+                     lhfvnn amqq+wddirrt+ivnmdlahqtlqkrlgke+tpetineylhilnhampg avvqehmvethp +vddcyvkvftgd elad++e qf
+  WP_011449112.1  95 LHFVNNPAMQQMWDDIRRTIIVNMDLAHQTLQKRLGKEITPETINEYLHILNHAMPGGAVVQEHMVETHPSVVDDCYVKVFTGDSELADQIEKQF 189
+                     *********************************************************************************************** PP
+
+       alignmcrA 191 vldveklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargp 285
+                     vldv+klfpakqae l+ avgkslwqaihipt vsrtcdggttsrwsamqigmsfi+ayrmcageaavadlsfaakhagviqmas lparrargp
+  WP_011449112.1 190 VLDVNKLFPAKQAEQLNEAVGKSLWQAIHIPTIVSRTCDGGTTSRWSAMQIGMSFITAYRMCAGEAAVADLSFAAKHAGVIQMASHLPARRARGP 284
+                     *********************************************************************************************** PP
+
+       alignmcrA 286 nepgglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandk 380
+                     nepgg+ fg f+d++q+nrkypndpakaslevvgag ml+dqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknps +dk
+  WP_011449112.1 285 NEPGGIMFGHFADMIQANRKYPNDPAKASLEVVGAGCMLFDQIWLGSYMSGGVGFTQYATAAYTDNILDEFTYYGMDYIKDKYKVDWKNPSPKDK 379
+                     *********************************************************************************************** PP
+
+       alignmcrA 381 vkptydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsans 475
+                     vkpt +ivnd+a evtlnameqyeqfptmmedhfggsqragviaaasgl+  +at nsnaglngwylsml+hk+gwsrlgffgydlqdqcgs+ns
+  WP_011449112.1 380 VKPTQEIVNDIAGEVTLNAMEQYEQFPTMMEDHFGGSQRAGVIAAASGLSVGVATANSNAGLNGWYLSMLMHKEGWSRLGFFGYDLQDQCGSTNS 474
+                     *********************************************************************************************** PP
+
+       alignmcrA 476 lsirgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     ls+r deg+ige rgpnypnyamnvghqgeyaaiv  shy r d +c+ p +ki fadp+l fdfaepr+efakgairef+ +ger+l++par
+  WP_011449112.1 475 LSVRPDEGCIGEYRGPNYPNYAMNVGHQGEYAAIVASSHYTRNDGFCLSPLIKITFADPSLPFDFAEPRKEFAKGAIREFVACGERTLLMPAR 567
+                     *******************************************************************************************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3265  (1011524 residues searched)
+Passed MSV filter:                        53  (0.0162328); expected 65.3 (0.02)
+Passed bias filter:                       44  (0.0134763); expected 65.3 (0.02)
+Passed Vit filter:                         4  (0.00122511); expected 3.3 (0.001)
+Passed Fwd filter:                         1  (0.000306279); expected 0.0 (1e-05)
+Initial search space (Z):               3265  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 20256.35
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_06.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2004  (605913 residues searched)
+Passed MSV filter:                        44  (0.0219561); expected 40.1 (0.02)
+Passed bias filter:                       38  (0.0189621); expected 40.1 (0.02)
+Passed Vit filter:                         0  (0); expected 2.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               2004  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 18206.93
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_07.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+          0 1063.0   1.1          0 1062.7   1.1    1.0  1  WP_012106121.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_012106121.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1062.7   1.1         0         0       2     568 .]       4     561 .]       3     561 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 1062.7 bits;  conditional E-value: 0
+       alignmcrA   2 akiersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddl 96 
+                     akier+qklflka+kekf  +d q+ t+  +   g+ qsprkmef+k  + + +drgismydp+r+h ggip+gqrqlmtyevsgtgvfvegddl
+  WP_012106121.1   4 AKIERTQKLFLKAMKEKFA-EDPQA-TSTVFARAGLEQSPRKMEFLKEGQKVALDRGISMYDPKRCHCGGIPLGQRQLMTYEVSGTGVFVEGDDL 96 
+                     8*****************7.56665.66678899************************************************************* PP
+
+       alignmcrA  97 hfvnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfv 191
+                     hfvnnaamqq+wddirrt+iv +dlah tlqkrlgkevtpetineylh+lnhampgaavvqehmvethp lvddcyvk+ftgd+e+add+epqfv
+  WP_012106121.1  97 HFVNNAAMQQMWDDIRRTIIVSLDLAHGTLQKRLGKEVTPETINEYLHVLNHAMPGAAVVQEHMVETHPALVDDCYVKIFTGDDEMADDIEPQFV 191
+                     *********************************************************************************************** PP
+
+       alignmcrA 192 ldveklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpn 286
+                     l+++klfpakqa al aavgks+wqa+hipt+vsrtcdggttsrwsamqigmsfi ay+mcageaav+dl+faakhagviqma +lparrargpn
+  WP_012106121.1 192 LNLDKLFPAKQAAALKAAVGKSMWQAVHIPTTVSRTCDGGTTSRWSAMQIGMSFIGAYKMCAGEAAVSDLAFAAKHAGVIQMADILPARRARGPN 286
+                     *********************************************************************************************** PP
+
+       alignmcrA 287 epgglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkv 381
+                     epgg+ fg f d++q++rkypndp ka+levvgag+ml+dqiwlgsymsggvgftqyataaytdnild++ yyg+dy+k       kn     k 
+  WP_012106121.1 287 EPGGIKFGHFGDMIQADRKYPNDPVKATLEVVGAGAMLFDQIWLGSYMSGGVGFTQYATAAYTDNILDDYCYYGLDYVK-------KNHGGLGKA 374
+                     ******************************************************************************9.......7889999** PP
+
+       alignmcrA 382 kptydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsansl 476
+                     k t + v d+a+evtl  meqyeq+pt +edhfggsqra v+aaasg+++++ t nsnagln wy smllhk+gwsrlgffgydlqdqcgsan +
+  WP_012106121.1 375 KLTQEAVSDIASEVTLYGMEQYEQYPTALEDHFGGSQRASVLAAASGISASLGTFNSNAGLNAWYQSMLLHKEGWSRLGFFGYDLQDQCGSANCM 469
+                     *********************************************************************************************** PP
+
+       alignmcrA 477 sirgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     s+r deg++gelrgpnypnyamnvghqgeyaai   +hygr daw++ p +ki fadp+lkfdf+eprrefa+gairefmpagersliipar
+  WP_012106121.1 470 SVRPDEGCLGELRGPNYPNYAMNVGHQGEYAAIASAAHYGRQDAWVLSPLMKITFADPSLKFDFSEPRREFARGAIREFMPAGERSLIIPAR 561
+                     *******************************************************************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2513  (729249 residues searched)
+Passed MSV filter:                        55  (0.0218862); expected 50.3 (0.02)
+Passed bias filter:                       46  (0.0183048); expected 50.3 (0.02)
+Passed Vit filter:                         3  (0.00119379); expected 2.5 (0.001)
+Passed Fwd filter:                         1  (0.000397931); expected 0.0 (1e-05)
+Initial search space (Z):               2513  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 16402.46
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_08.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3141  (1021203 residues searched)
+Passed MSV filter:                        84  (0.0267431); expected 62.8 (0.02)
+Passed bias filter:                       64  (0.0203757); expected 62.8 (0.02)
+Passed Vit filter:                         1  (0.00031837); expected 3.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3141  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 23829.26
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_09.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2403  (690732 residues searched)
+Passed MSV filter:                        63  (0.0262172); expected 48.1 (0.02)
+Passed bias filter:                       40  (0.0166459); expected 48.1 (0.02)
+Passed Vit filter:                         1  (0.000416146); expected 2.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               2403  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 23626.61
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_10.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       1418  (410879 residues searched)
+Passed MSV filter:                        37  (0.0260931); expected 28.4 (0.02)
+Passed bias filter:                       28  (0.0197461); expected 28.4 (0.02)
+Passed Vit filter:                         6  (0.00423131); expected 1.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               1418  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 14822.08
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_11.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3705  (1336476 residues searched)
+Passed MSV filter:                        78  (0.0210526); expected 74.1 (0.02)
+Passed bias filter:                       68  (0.0183536); expected 74.1 (0.02)
+Passed Vit filter:                         3  (0.000809717); expected 3.7 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3705  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 29365.03
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_12.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       4607  (1629089 residues searched)
+Passed MSV filter:                       113  (0.0245279); expected 92.1 (0.02)
+Passed bias filter:                       97  (0.0210549); expected 92.1 (0.02)
+Passed Vit filter:                         3  (0.000651183); expected 4.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               4607  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.03
+# Mc/sec: 27075.83
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_13.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3995  (1286779 residues searched)
+Passed MSV filter:                       127  (0.0317897); expected 79.9 (0.02)
+Passed bias filter:                       96  (0.02403); expected 79.9 (0.02)
+Passed Vit filter:                         7  (0.00175219); expected 4.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3995  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.02
+# Mc/sec: 24619.06
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_14.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3827  (1112022 residues searched)
+Passed MSV filter:                        86  (0.0224719); expected 76.5 (0.02)
+Passed bias filter:                       66  (0.0172459); expected 76.5 (0.02)
+Passed Vit filter:                         4  (0.00104521); expected 3.8 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3827  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 25779.78
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_15.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+     8e-246  813.9   2.2   9.1e-246  813.7   2.2    1.0  1  WP_011972678.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_011972678.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  813.7   2.2  5.5e-249  9.1e-246       5     568 .]       2     553 .]       1     553 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 813.7 bits;  conditional E-value: 5.5e-249
+       alignmcrA   5 ersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasrai..emdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlh 97 
+                     e  ++lflkalkekf+ +d +   +++y y g  qs rk ef+ a+  +  e  +g+ +y+p+     g+p+gqr+lm y++sgt  + egddlh
+  WP_011972678.1   2 EAEKRLFLKALKEKFE-EDPKEKYTKFYTYGGWEQSARKREFVAANEKVlaEKRQGVPLYNPDI----GVPLGQRKLMPYKLSGTDSYCEGDDLH 91 
+                     66789**********8.577888899******************99876347778*******95....9************************** PP
+
+       alignmcrA  98 fvnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvl 192
+                     f+nnaa+qq+wddirrtv+v md ah  l+krlg evtpetiney+h +nha+ g avvqehmve hp l  d y ++ftgd+ela +l+ +f++
+  WP_011972678.1  92 FMNNAAIQQLWDDIRRTVVVGMDTAHSVLEKRLGVEVTPETINEYMHTINHALSGGAVVQEHMVEVHPSLAWDSYARIFTGDDELAAELDSRFLI 186
+                     *********************************************************************************************** PP
+
+       alignmcrA 193 dveklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpne 287
+                     d++klfpa+qaeal  a+gk  +q  ++p+ v r cdggt srwsamqigmsfi+ay++cageaa ad+s+a+kha viqm + lp rrargpne
+  WP_011972678.1 187 DINKLFPAEQAEALKKAIGKKTYQVSRVPSLVGRVCDGGTISRWSAMQIGMSFITAYKLCAGEAATADFSYASKHADVIQMGNALPGRRARGPNE 281
+                     *********************************************************************************************** PP
+
+       alignmcrA 288 pgglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvk 382
+                     pgg+ fg++sd+vqt r   +dp + slevv ag+ lydqiwlg+ymsggvgftqyataaytd+ild+f+yy +dy++ ky             k
+  WP_011972678.1 282 PGGIQFGILSDVVQTTR-VSDDPVEQSLEVVAAGAALYDQIWLGAYMSGGVGFTQYATAAYTDDILDDFSYYALDYVEKKYGR--------MGTK 367
+                     ***************98.579***********************************************************963........4579 PP
+
+       alignmcrA 383 ptydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsansls 477
+                      t d+v+d+a+evtl ++eqy+++p+++edhfggsqra v aaasg+  ++atgnsnag+ngwyls +lhk+  srlgf+gydlqdqcg++nsl+
+  WP_011972678.1 368 ATMDVVEDIASEVTLYSLEQYDEYPALLEDHFGGSQRAAVAAAASGIGVCMATGNSNAGVNGWYLSQILHKEYHSRLGFYGYDLQDQCGASNSLA 462
+                     9********************************************************************************************** PP
+
+       alignmcrA 478 irgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     ir de a  elrgpnypnyamnvghqgeya i   +h  rgda+++   +k++fadp l fdf++pr+efa+ga+ref  ager +i+pa+
+  WP_011972678.1 463 IRNDESAPLELRGPNYPNYAMNVGHQGEYAGIAQAAHSARGDAFAMSALIKVAFADPMLVFDFSKPRKEFARGALREFDAAGERDVILPAK 553
+                     *****************************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       1662  (483687 residues searched)
+Passed MSV filter:                        41  (0.0246691); expected 33.2 (0.02)
+Passed bias filter:                       36  (0.0216606); expected 33.2 (0.02)
+Passed Vit filter:                         5  (0.00300842); expected 1.7 (0.001)
+Passed Fwd filter:                         1  (0.000601685); expected 0.0 (1e-05)
+Initial search space (Z):               1662  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 10224.79
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_16.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   7.5e-288  953.5   5.2   8.5e-288  953.3   5.2    1.0  1  WP_012035370.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_012035370.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  953.3   5.2  2.8e-291  8.5e-288       4     568 .]       3     556 .]       1     556 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 953.3 bits;  conditional E-value: 2.8e-291
+       alignmcrA   4 iersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhf 98 
+                     ++ +qk f+ka+k+kf  +         +ky+g  qs rk+ef k+  ai   rgismy+p   h+ggip+gqrqlm y vsgt + vegddlhf
+  WP_012035370.1   3 VKETQKRFIKAMKKKFAEEPTAQ--VTKFKYEGYTQSKRKVEFKKTGDAIAKKRGISMYNPM-VHMGGIPLGQRQLMNYVVSGTDIAVEGDDLHF 94 
+                     5678************9876544..4579********************************5.8******************************* PP
+
+       alignmcrA  99 vnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvld 193
+                     vnnaamqqfwd+irrtviv +d ah tl+krlgk vtpeti +yl +lnhampgaavvqehmvethpgl ddc+vkvftgd+elad ++ q+vld
+  WP_012035370.1  95 VNNAAMQQFWDEIRRTVIVGLDTAHATLEKRLGKTVTPETISNYLAVLNHAMPGAAVVQEHMVETHPGLTDDCFVKVFTGDDELADSIDKQYVLD 189
+                     *********************************************************************************************** PP
+
+       alignmcrA 194 veklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnep 288
+                     ++k fp +qa  l  a+gk l+qa+hipt v rtcdggttsrwsamqigmsfi ay+mcageaavadl+faakha v++m +llparrargpnep
+  WP_012035370.1 190 INKAFPKEQAAQLKKAIGKQLFQAVHIPTIVVRTCDGGTTSRWSAMQIGMSFIDAYKMCAGEAAVADLAFAAKHASVVEMGNLLPARRARGPNEP 284
+                     *********************************************************************************************** PP
+
+       alignmcrA 289 gglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkp 383
+                     gg++fg+++divqt rkyp+dp k+sle v +g mlydqiwlgsymsggvgftqyataaytd+ild+f yyg dyik ky +         k kp
+  WP_012035370.1 285 GGVSFGFLADIVQTHRKYPDDPVKSSLETVASGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDDFCYYGYDYIKGKYGI--------AKAKP 371
+                     ********************************************************************************88........489** PP
+
+       alignmcrA 384 tydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsi 478
+                     t d+vnd+ tevtl  +eqye++pt +edhfggsqra v++aa+g+tt++atgn+nagl  wylsm lhk+ w rlgffgydlqdqcg++n +s 
+  WP_012035370.1 372 TMDVVNDIGTEVTLYGIEQYEKYPTTLEDHFGGSQRATVLSAAAGVTTSLATGNANAGLSAWYLSMYLHKEAWGRLGFFGYDLQDQCGATNVFSC 466
+                     *********************************************************************************************** PP
+
+       alignmcrA 479 rgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     r degai elrgpnypnyamnvghqg y+ i g +hygrgdaw+  p +ki+fad +l fdf+epr+efa+gairefmpagersl+ipa+
+  WP_012035370.1 467 RSDEGAIDELRGPNYPNYAMNVGHQGGYTGIAGAAHYGRGDAWVASPLIKIAFADKSLAFDFTEPRKEFARGAIREFMPAGERSLVIPAK 556
+                     ****************************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3039  (878464 residues searched)
+Passed MSV filter:                        81  (0.0266535); expected 60.8 (0.02)
+Passed bias filter:                       61  (0.0200724); expected 60.8 (0.02)
+Passed Vit filter:                         2  (0.000658111); expected 3.0 (0.001)
+Passed Fwd filter:                         1  (0.000329056); expected 0.0 (1e-05)
+Initial search space (Z):               3039  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.07u 0.01s 00:00:00.08 Elapsed: 00:00:00.04
+# Mc/sec: 12423.07
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_17.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       1784  (476344 residues searched)
+Passed MSV filter:                        45  (0.0252242); expected 35.7 (0.02)
+Passed bias filter:                       42  (0.0235426); expected 35.7 (0.02)
+Passed Vit filter:                         7  (0.00392377); expected 1.8 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               1784  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 21172.42
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_18.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       4219  (1434631 residues searched)
+Passed MSV filter:                       112  (0.0265466); expected 84.4 (0.02)
+Passed bias filter:                       71  (0.0168286); expected 84.4 (0.02)
+Passed Vit filter:                         1  (0.000237023); expected 4.2 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               4219  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 32753.87
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_19.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+          0 1114.9   3.8          0 1114.8   3.8    1.0  1  WP_048111146.1  coenzyme-B sulfoethylthiotransferase subunit 
+          0 1069.2   2.8          0 1069.0   2.8    1.0  1  WP_015286563.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_048111146.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1114.8   3.8         0         0       1     568 []       1     568 []       1     568 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1114.8 bits;  conditional E-value: 0
+       alignmcrA   1 makiersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegdd 95 
+                     ma +e+sqk flkalkekf+gqdv+s+ + +yk+ gv+qsprk efm a++ ie drgismydpe++hl gipmgqrqlmtyevsgtg fvegdd
+  WP_048111146.1   1 MASVEHSQKQFLKALKEKFKGQDVESQKTGFYKFGGVQQSPRKREFMAATKKIEADRGISMYDPEHCHLNGIPMGQRQLMTYEVSGTGTFVEGDD 95 
+                     899******************************************************************************************** PP
+
+       alignmcrA  96 lhfvnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqf 190
+                     lh+vnn+a+qq+ d+i+rt+iv md+ah+tlqkrlgkevtp+tineylhilnhampg avvqehmvet pglvddcyvk+ftg++e+add+epq+
+  WP_048111146.1  96 LHYVNNSAIQQMSDEIKRTIIVGMDIAHNTLQKRLGKEVTPQTINEYLHILNHAMPGGAVVQEHMVETNPGLVDDCYVKIFTGNDEVADDIEPQY 190
+                     *********************************************************************************************** PP
+
+       alignmcrA 191 vldveklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargp 285
+                     +l++eklfp kqaeal a +gks++qaih+pt v rtcdggttsrwsamqigmsfiaayr cageaavadlsfaakhagviqm s lparrargp
+  WP_048111146.1 191 LLNIEKLFPKKQAEALKAEIGKSMYQAIHVPTIVVRTCDGGTTSRWSAMQIGMSFIAAYRTCAGEAAVADLSFAAKHAGVIQMGSHLPARRARGP 285
+                     *********************************************************************************************** PP
+
+       alignmcrA 286 nepgglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandk 380
+                     nepgg+ fg+fsd++q++rkyp+dpakaslevv ag+ l+dqiwlgsymsggvgftqyataaytdnild+ftyygmdy+kdky  ++++p a+  
+  WP_048111146.1 286 NEPGGIKFGMFSDMIQADRKYPDDPAKASLEVVAAGAALFDQIWLGSYMSGGVGFTQYATAAYTDNILDDFTYYGMDYVKDKYGYNFRQPGADKV 380
+                     *********************************************************************************************** PP
+
+       alignmcrA 381 vkptydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsans 475
+                     ++pt divnd+atevtl +meqye+fpt+medhfggsqra v+aaa+gl+t+i+tgnsnagln wylsm++hkdgwsrlgffgydlqdqcgsans
+  WP_048111146.1 381 IRPTQDIVNDIATEVTLYSMEQYEKFPTLMEDHFGGSQRAAVMAAAAGLSTSITTGNSNAGLNAWYLSMIIHKDGWSRLGFFGYDLQDQCGSANS 475
+                     *********************************************************************************************** PP
+
+       alignmcrA 476 lsirgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     ls+  d ga+gelrgpnypnyamnvghqgeyaaiv  +hygr da+cfdprvki fadp+lkfdf+epr+efa+gairef  agersli+par
+  WP_048111146.1 476 LSMEPDRGAMGELRGPNYPNYAMNVGHQGEYAAIVASAHYGRADAFCFDPRVKITFADPSLKFDFSEPRKEFARGAIREFEAAGERSLIMPAR 568
+                     ********************************************************************************************8 PP
+
+>> WP_015286563.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1069.0   2.8         0         0       2     568 .]       5     562 .]       4     562 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 1069.0 bits;  conditional E-value: 0
+       alignmcrA   2 akiersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddl 96 
+                     akier+qklflka+kekf  +d q++ a  +k +g+ qsprkmef+ka +a emdrgismydp r+h ggip+gqrqlmtye+s tgvfvegdd 
+  WP_015286563.1   5 AKIERTQKLFLKAMKEKFA-EDPQAQ-ATVFKREGLSQSPRKMEFVKAGKAAEMDRGISMYDPARCHCGGIPLGQRQLMTYEISSTGVFVEGDDC 97 
+                     8*****************6.577765.6789**************************************************************** PP
+
+       alignmcrA  97 hfvnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfv 191
+                     hfvnnaamqq+wddirrt+iv +dlah tlqkrlgkevtpetineylh+lnhampgaavvqehmvethp lvddcyvkvftgd+e+addlepqfv
+  WP_015286563.1  98 HFVNNAAMQQMWDDIRRTIIVGLDLAHGTLQKRLGKEVTPETINEYLHVLNHAMPGAAVVQEHMVETHPSLVDDCYVKVFTGDDEMADDLEPQFV 192
+                     *********************************************************************************************** PP
+
+       alignmcrA 192 ldveklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpn 286
+                     l+v+klfpakqa  l aavgks+wqa+hipt vsrtcdggttsrwsamqigmsfi ay+mcageaavadl+faakhagviqma +lparrargpn
+  WP_015286563.1 193 LNVDKLFPAKQAAQLKAAVGKSMWQAVHIPTIVSRTCDGGTTSRWSAMQIGMSFIGAYKMCAGEAAVADLAFAAKHAGVIQMADILPARRARGPN 287
+                     *********************************************************************************************** PP
+
+       alignmcrA 287 epgglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkv 381
+                     epgg+ fg f+d++q++rkypndp +aslevv  g ml+dqiwlgsymsggvgftqyataaytdnild+ft yg+dy+k k+        a  kv
+  WP_015286563.1 288 EPGGIKFGHFADMIQSDRKYPNDPVRASLEVVAGGCMLFDQIWLGSYMSGGVGFTQYATAAYTDNILDDFTSYGVDYVKKKH-------GALGKV 375
+                     ******************************************************************************9875.......6899** PP
+
+       alignmcrA 382 kptydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsansl 476
+                     k t d+vnd+a+evtl  meqye+fpt +e hfggsqra v+aaasg++ta+at nsnaglngwy+sml+hk+ wsrlgffgydlqdqcgsans+
+  WP_015286563.1 376 KATQDVVNDIASEVTLYGMEQYEEFPTTLESHFGGSQRATVLAAASGVSTALATANSNAGLNGWYMSMLMHKEAWSRLGFFGYDLQDQCGSANSM 470
+                     *********************************************************************************************** PP
+
+       alignmcrA 477 sirgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     s+r deg +gelrgpnypnyamnvghqg ya i g +h  rgdaw++ p +ki f+dp+lkfdf+e rrefakgairefmpagersliipa+
+  WP_015286563.1 471 SVRPDEGLLGELRGPNYPNYAMNVGHQGGYAGIAGAAHIARGDAWALSPLMKITFSDPSLKFDFSEVRREFAKGAIREFMPAGERSLIIPAK 562
+                     ******************************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2788  (806841 residues searched)
+Passed MSV filter:                        67  (0.0240316); expected 55.8 (0.02)
+Passed bias filter:                       57  (0.0204448); expected 55.8 (0.02)
+Passed Vit filter:                         9  (0.00322812); expected 2.8 (0.001)
+Passed Fwd filter:                         2  (0.00071736); expected 0.0 (1e-05)
+Initial search space (Z):               2788  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.03
+# Mc/sec: 11849.42
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_20.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3857  (1196281 residues searched)
+Passed MSV filter:                        84  (0.0217786); expected 77.1 (0.02)
+Passed bias filter:                       58  (0.0150376); expected 77.1 (0.02)
+Passed Vit filter:                         6  (0.00155561); expected 3.9 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3857  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 30732.42
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_21.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3430  (1151872 residues searched)
+Passed MSV filter:                        86  (0.0250729); expected 68.6 (0.02)
+Passed bias filter:                       67  (0.0195335); expected 68.6 (0.02)
+Passed Vit filter:                         3  (0.000874636); expected 3.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3430  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 29856.30
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_22.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       9228  (3036290 residues searched)
+Passed MSV filter:                       294  (0.0318596); expected 184.6 (0.02)
+Passed bias filter:                      230  (0.0249241); expected 184.6 (0.02)
+Passed Vit filter:                        19  (0.00205895); expected 9.2 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):               9228  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.16u 0.00s 00:00:00.16 Elapsed: 00:00:00.07
+# Mc/sec: 22437.66
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_23.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   8.4e-249  823.7   0.8   9.5e-249  823.5   0.8    1.0  1  WP_011954158.1  MULTISPECIES: coenzyme-B sulfoethylthiotransf
+   7.8e-236  780.9   2.9   8.8e-236  780.7   2.9    1.0  1  WP_011954235.1  MULTISPECIES: coenzyme-B sulfoethylthiotransf
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_011954158.1  MULTISPECIES: coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  823.5   0.8  1.1e-251  9.5e-249       5     568 .]       2     551 .]       1     551 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 823.5 bits;  conditional E-value: 1.1e-251
+       alignmcrA   5 ersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhfv 99 
+                     e  +k+f+kal++kf+g+d +s+ + +y ++g +qsprk ef  a+  +  dr + +y+p+     g+p+gqr lmty++sgt  +vegddlhf 
+  WP_011954158.1   2 ENEEKVFFKALNQKFKGEDNESNHTSFYCFDGWKQSPRKREFNDAAEKLAKDRNMPFYNPDI----GVPLGQRSLMTYKISGTDDYVEGDDLHFC 92 
+                     7789********************************************************95....9**************************** PP
+
+       alignmcrA 100 nnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvldv 194
+                     nnaa+qq+ ddi+rt+iv md ah  lq+rlg evtpetiney+  +nha+pg avvqehmve hpglv dcy k+ftg++elad+++ ++++d+
+  WP_011954158.1  93 NNAAIQQLVDDIKRTIIVGMDTAHSVLQERLGVEVTPETINEYMENINHALPGGAVVQEHMVEVHPGLVSDCYAKIFTGNDELADEIDKRVLIDI 187
+                     *********************************************************************************************** PP
+
+       alignmcrA 195 eklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnepg 289
+                     +k fp  qa+ l   +g+  +q  ++pt v r+cdggt srwsamqigmsfi ay++cageaa+ad+s+aakha vi mas+lparrargpnepg
+  WP_011954158.1 188 NKEFPEDQAQMLKDYLGNKTYQVSRVPTLVVRACDGGTVSRWSAMQIGMSFINAYKLCAGEAAIADFSYAAKHADVIGMASFLPARRARGPNEPG 282
+                     *********************************************************************************************** PP
+
+       alignmcrA 290 glafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkpt 384
+                     g++fg fsd++qt r   +dpa+ +lev+   + lydq+wlgsymsggvgftqya+a+ytd+ild+f yyg+dy++d+y +         + + t
+  WP_011954158.1 283 GVSFGAFSDMIQTSR-ISDDPAEVTLEVIAGAAALYDQVWLGSYMSGGVGFTQYASATYTDDILDDFVYYGLDYVEDNYGLC--------QAEKT 368
+                     *************98.589************************************************************874........34569 PP
+
+       alignmcrA 385 ydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsir 479
+                      d+v d++tevtl  +eqye +pt++e hfggsqra vi+aa+g +ta at nsnag+ngwylsmllhk+g srlgf+gydlqdqcgsanslsir
+  WP_011954158.1 369 MDVVRDISTEVTLYGLEQYE-IPTLLETHFGGSQRASVISAAAGCSTAFATANSNAGVNGWYLSMLLHKEGHSRLGFYGYDLQDQCGSANSLSIR 462
+                     9******************9.7************************************************************************* PP
+
+       alignmcrA 480 gdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                      deg i elrgpnypnyamnvghq eya i    h  r da+ ++p +ki+fad al fdf  pr+e+a+ga+ref p ger +iipa+
+  WP_011954158.1 463 SDEGLIHELRGPNYPNYAMNVGHQPEYAGIAQAPHAARKDAFSVNPLIKIAFADDALSFDFKHPRKEIARGALREFEPDGERDIIIPAK 551
+                     ***************************************************************************************96 PP
+
+>> WP_011954235.1  MULTISPECIES: coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  780.7   2.9    1e-238  8.8e-236       8     568 .]       3     551 .]       1     551 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 780.7 bits;  conditional E-value: 1e-238
+       alignmcrA   8 qklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhfvnna 102
+                     +k fl a+k+kf     +  t  +y+  g +qs rk  f+k  + i   rgi my+p+     g p+gqr lm+y++s t  +vegddlhf+nna
+  WP_011954235.1   3 DKKFLDAMKNKFSEGPTDKRT-TFYNMGGWKQSERKSAFVKEGKEIAEKRGIPMYNPDI----GTPLGQRALMSYQLSTTDTYVEGDDLHFINNA 92 
+                     689*********987776655.6999*******************************95....89****************************** PP
+
+       alignmcrA 103 amqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvldvekl 197
+                     a+qq wddirrtviv ++ ah+ l+krlg evtpeti eyl  +nhampgaavvqehmvet p +v+d yvkvftgd+elad+++  fvld++k 
+  WP_011954235.1  93 AIQQAWDDIRRTVIVGLNTAHNVLEKRLGIEVTPETITEYLETVNHAMPGAAVVQEHMVETDPLVVQDSYVKVFTGDDELADEIDSAFVLDINKE 187
+                     *********************************************************************************************** PP
+
+       alignmcrA 198 fpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnepggla 292
+                     f  +qa al   vg s+wqa++ip+ v r cdggttsrwsamqigms+i+ay  cage a  d+++a+kha vi+m + lp rrar  ne gg+ 
+  WP_011954235.1 188 FNEEQAAALKEEVGGSVWQAVRIPAIVGRVCDGGTTSRWSAMQIGMSMISAYNQCAGEGATGDFAYASKHAEVIHMGTYLPVRRARAENELGGVP 282
+                     *********************************************************************************************** PP
+
+       alignmcrA 293 fglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkptydi 387
+                     fg+++di q+ r   +dp +++l+vv  g+ lydqiwlgsymsggvgftqyataaytd++ld+ftyyg dy++dky    + p+         d 
+  WP_011954235.1 283 FGFMADICQSSRVNADDPVRSTLDVVALGAALYDQIWLGSYMSGGVGFTQYATAAYTDDVLDDFTYYGKDYVEDKYGGLTEAPNN-------MDT 370
+                     ****************************************************************************988888765.......567 PP
+
+       alignmcrA 388 vndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsirgde 482
+                     v d+ +ev++ a+eqye++p+++e hfggsqra vi+aa+g +ta atgn+++gl  wyl m lhk+  srlgf+gydlqdqcg+an +sir de
+  WP_011954235.1 371 VLDVGSEVSFYALEQYEEYPALLETHFGGSQRASVISAAAGCSTAFATGNAQTGLSAWYLGMYLHKEQHSRLGFYGYDLQDQCGAANVFSIRNDE 465
+                     889******************************************************************************************** PP
+
+       alignmcrA 483 gaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     g   e+rgpnypnyamnvghqgeya i    h  rgdaw f+p vki+fad  l fdf++pr efakga+ref p+ger++i pa+
+  WP_011954235.1 466 GLPLEMRGPNYPNYAMNVGHQGEYAGIAQAPHAARGDAWSFNPLVKIAFADKNLVFDFSKPREEFAKGALREFEPSGERTVITPAK 551
+                     ************************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       1699  (536943 residues searched)
+Passed MSV filter:                        36  (0.0211889); expected 34.0 (0.02)
+Passed bias filter:                       25  (0.0147145); expected 34.0 (0.02)
+Passed Vit filter:                         3  (0.00176574); expected 1.7 (0.001)
+Passed Fwd filter:                         2  (0.00117716); expected 0.0 (1e-05)
+Initial search space (Z):               1699  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 9144.73
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_24.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   2.1e-261  866.3   5.4   2.4e-261  866.1   5.4    1.0  1  WP_011033189.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_011033189.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  866.1   5.4  7.1e-265  2.4e-261      19     568 .]      26     570 .]       7     570 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 866.1 bits;  conditional E-value: 7.1e-265
+       alignmcrA  19 fqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhfvnnaamqqfwddirr 113
+                       g d+   ta++ +  g  q  rk e++ka + i   rgi++y+p   h  g p+gqr +  y +sgt ++ e ddlh+vnnaamqq+wddirr
+  WP_011033189.1  26 QAGGDITGKTAKFLRL-GPEQDARKAEMIKAGKEIAEKRGIAFYNPMM-H-SGAPLGQRAITPYTLSGTDIVAEPDDLHYVNNAAMQQMWDDIRR 117
+                     4688999999999886.889**************************74.4.689***************************************** PP
+
+       alignmcrA 114 tvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvldveklfpakqaealsa 208
+                     t iv +d+ah+tl+krlgkevtpetin yl +lnhampgaavvqe mvethp lvddcyvkvftgd+elad+++ q+v++++k+f  +qa  + a
+  WP_011033189.1 118 TCIVGLDMAHETLEKRLGKEVTPETINHYLEVLNHAMPGAAVVQEMMVETHPALVDDCYVKVFTGDDELADEIDKQYVININKMFSEEQAAQIKA 212
+                     *********************************************************************************************** PP
+
+       alignmcrA 209 avgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnepgglafglfsdivqtn 303
+                     ++gk+ wqaihipt vsrt dg  tsrw+amqigmsfi+ay mcageaavadlsfaakha ++ m  +lparrargpnepggl+fg ++di+qt 
+  WP_011033189.1 213 SMGKTTWQAIHIPTIVSRTTDGAQTSRWAAMQIGMSFISAYAMCAGEAAVADLSFAAKHAALVSMGEMLPARRARGPNEPGGLSFGHLADIIQTS 307
+                     **********************************************************************************************9 PP
+
+       alignmcrA 304 rkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkptydivndmatevtln 398
+                     r   +dpak +levvgag mlydqiwlgsymsggvgftqyataaytd+ild+ tyy +dyi+dky+    n  +++kvk t d+v+d+ate tl 
+  WP_011033189.1 308 RV-SQDPAKIALEVVGAGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDNNTYYDVDYINDKYNG-AANLGTDNKVKATLDVVKDIATESTLY 400
+                     85.79************************************************************96.57899999******************* PP
+
+       alignmcrA 399 ameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsirgdegaigelrgpny 493
+                      +e ye+fpt +edhfggsqra v+aaasg++ a+atgn+nagl gwylsm +hk+ w rlgffg+dlqdqcg++n ls +gdeg   elrgpny
+  WP_011033189.1 401 GIETYEKFPTALEDHFGGSQRATVLAAASGVACALATGNANAGLSGWYLSMYVHKEAWGRLGFFGFDLQDQCGATNVLSYQGDEGLPDELRGPNY 495
+                     *********************************************************************************************** PP
+
+       alignmcrA 494 pnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     pnyamnvghqg ya i   +h grgda+ ++p +k+cfad  + f+faeprref +gairef+pagersliipa+
+  WP_011033189.1 496 PNYAMNVGHQGGYAGIAQAAHSGRGDAFTVNPLIKVCFADDLMPFNFAEPRREFGRGAIREFVPAGERSLIIPAK 570
+                     *************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3338  (1006346 residues searched)
+Passed MSV filter:                        54  (0.0161774); expected 66.8 (0.02)
+Passed bias filter:                       48  (0.0143799); expected 66.8 (0.02)
+Passed Vit filter:                         3  (0.000898742); expected 3.3 (0.001)
+Passed Fwd filter:                         1  (0.000299581); expected 0.0 (1e-05)
+Initial search space (Z):               3338  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.06u 0.01s 00:00:00.06 Elapsed: 00:00:00.03
+# Mc/sec: 17772.52
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_25.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3853  (1406407 residues searched)
+Passed MSV filter:                        82  (0.0212821); expected 77.1 (0.02)
+Passed bias filter:                       77  (0.0199844); expected 77.1 (0.02)
+Passed Vit filter:                         6  (0.00155723); expected 3.9 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3853  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.03
+# Mc/sec: 23319.55
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_26.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       1519  (454041 residues searched)
+Passed MSV filter:                        39  (0.0256748); expected 30.4 (0.02)
+Passed bias filter:                       27  (0.0177749); expected 30.4 (0.02)
+Passed Vit filter:                         1  (0.000658328); expected 1.5 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               1519  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 16457.05
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_27.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       4075  (1216139 residues searched)
+Passed MSV filter:                       118  (0.0289571); expected 81.5 (0.02)
+Passed bias filter:                       95  (0.0233129); expected 81.5 (0.02)
+Passed Vit filter:                         9  (0.00220859); expected 4.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               4075  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.03
+# Mc/sec: 22643.00
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_28.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2467  (662499 residues searched)
+Passed MSV filter:                        47  (0.0190515); expected 49.3 (0.02)
+Passed bias filter:                       44  (0.0178354); expected 49.3 (0.02)
+Passed Vit filter:                         4  (0.0016214); expected 2.5 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               2467  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 21586.95
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_29.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   2.5e-258  854.9   0.5   2.8e-258  854.8   0.5    1.0  1  WP_013099697.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_013099697.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  854.8   0.5  1.9e-261  2.8e-258       5     567 ..       2     552 ..       1     553 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 854.8 bits;  conditional E-value: 1.9e-261
+       alignmcrA   5 ersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkas.raiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhf 98 
+                     e  ++lflkalkekf+  d +   +++y + g rqs rk ef++a+ + ie   gi +y+p+     g+p+gqr+lm y+vs t  +vegddlhf
+  WP_013099697.1   2 EAEKRLFLKALKEKFEE-DPREKYTKFYIFGGWRQSARKREFVEAAqKLIEKRGGIPFYNPDI----GVPLGQRKLMPYKVSNTDAIVEGDDLHF 91 
+                     66789**********85.77888889*****************986257899999******95....9*************************** PP
+
+       alignmcrA  99 vnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvld 193
+                     +nnaa+qq+wddirrtviv md ah  l+krlg e tpetiney+ ++nha+pg avvqehmve hp lv dcy k+ftgd+elad+++ +f++d
+  WP_013099697.1  92 MNNAAIQQMWDDIRRTVIVGMDTAHAVLEKRLGVEATPETINEYMEVINHALPGGAVVQEHMVEVHPALVWDCYAKIFTGDDELADEIDKRFLID 186
+                     *********************************************************************************************** PP
+
+       alignmcrA 194 veklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnep 288
+                     ++klfp +qae +  a+gk  +q  ++pt v r cdggt +rwsamqigmsfi+ay++cageaa+ad+s+aakha viqma++lparrargpnep
+  WP_013099697.1 187 INKLFPEEQAEQIKKAIGKRTYQVSRVPTLVGRVCDGGTIARWSAMQIGMSFITAYKLCAGEAAIADFSYAAKHADVIQMATFLPARRARGPNEP 281
+                     *********************************************************************************************** PP
+
+       alignmcrA 289 gglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkp 383
+                     gg+ fg+++d+vqt r   +dp + slevv ag+ l+dqiwlgsymsggvgftqyata+ytd+ild+f+yyg dyi+ ky          + vkp
+  WP_013099697.1 282 GGMYFGVLADVVQTTR-VSDDPVEQSLEVVAAGAALFDQIWLGSYMSGGVGFTQYATASYTDDILDDFSYYGYDYINKKYG-------GCNSVKP 368
+                     **************98.579**********************************************************995.......4568*** PP
+
+       alignmcrA 384 tydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsi 478
+                     t d+v+d+atevtl a+eqy+ +p+++edhfggsqra v aaasg++ a+atgnsnaglngwyls +lhk+  srlgf+gydlqdqcg+ansls 
+  WP_013099697.1 369 TMDVVEDIATEVTLYALEQYDTYPALLEDHFGGSQRAAVTAAASGISVALATGNSNAGLNGWYLSQILHKEYHSRLGFYGYDLQDQCGAANSLSF 463
+                     *********************************************************************************************** PP
+
+       alignmcrA 479 rgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipa 567
+                     r deg+  elrgpnypnyamnvghqgeya i   +h grgda++++p +k++fadp+l fdf  pr+efa+ga+ref pager  iipa
+  WP_013099697.1 464 RNDEGSPLELRGPNYPNYAMNVGHQGEYAGITQAAHSGRGDAFALNPLIKVAFADPSLIFDFRYPRKEFARGALREFEPAGERDPIIPA 552
+                     ****************************************************************************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       1434  (405359 residues searched)
+Passed MSV filter:                        33  (0.0230126); expected 28.7 (0.02)
+Passed bias filter:                       29  (0.0202232); expected 28.7 (0.02)
+Passed Vit filter:                         2  (0.0013947); expected 1.4 (0.001)
+Passed Fwd filter:                         1  (0.00069735); expected 0.0 (1e-05)
+Initial search space (Z):               1434  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 9212.29
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_30.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3515  (1133039 residues searched)
+Passed MSV filter:                       120  (0.0341394); expected 70.3 (0.02)
+Passed bias filter:                       92  (0.0261735); expected 70.3 (0.02)
+Passed Vit filter:                         5  (0.00142248); expected 3.5 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3515  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.03
+# Mc/sec: 20101.62
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_31.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3424  (1139280 residues searched)
+Passed MSV filter:                        76  (0.0221963); expected 68.5 (0.02)
+Passed bias filter:                       69  (0.0201519); expected 68.5 (0.02)
+Passed Vit filter:                         3  (0.000876168); expected 3.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3424  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.03
+# Mc/sec: 17314.50
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_32.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2486  (800122 residues searched)
+Passed MSV filter:                        57  (0.0229284); expected 49.7 (0.02)
+Passed bias filter:                       41  (0.0164924); expected 49.7 (0.02)
+Passed Vit filter:                         1  (0.000402253); expected 2.5 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               2486  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 18395.42
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_33.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2004  (605913 residues searched)
+Passed MSV filter:                        44  (0.0219561); expected 40.1 (0.02)
+Passed bias filter:                       38  (0.0189621); expected 40.1 (0.02)
+Passed Vit filter:                         0  (0); expected 2.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               2004  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 11987.07
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_34.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3827  (1112022 residues searched)
+Passed MSV filter:                        86  (0.0224719); expected 76.5 (0.02)
+Passed bias filter:                       66  (0.0172459); expected 76.5 (0.02)
+Passed Vit filter:                         4  (0.00104521); expected 3.8 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3827  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 22139.83
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_35.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       1519  (454041 residues searched)
+Passed MSV filter:                        39  (0.0256748); expected 30.4 (0.02)
+Passed bias filter:                       27  (0.0177749); expected 30.4 (0.02)
+Passed Vit filter:                         1  (0.000658328); expected 1.5 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               1519  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 20138.77
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_36.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3857  (1196281 residues searched)
+Passed MSV filter:                        84  (0.0217786); expected 77.1 (0.02)
+Passed bias filter:                       58  (0.0150376); expected 77.1 (0.02)
+Passed Vit filter:                         6  (0.00155561); expected 3.9 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3857  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 29654.46
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_37.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2403  (690732 residues searched)
+Passed MSV filter:                        63  (0.0262172); expected 48.1 (0.02)
+Passed bias filter:                       40  (0.0166459); expected 48.1 (0.02)
+Passed Vit filter:                         1  (0.000416146); expected 2.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               2403  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 22128.99
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_38.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   7.5e-288  953.5   5.2   8.5e-288  953.3   5.2    1.0  1  WP_012035370.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_012035370.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  953.3   5.2  2.8e-291  8.5e-288       4     568 .]       3     556 .]       1     556 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 953.3 bits;  conditional E-value: 2.8e-291
+       alignmcrA   4 iersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhf 98 
+                     ++ +qk f+ka+k+kf  +         +ky+g  qs rk+ef k+  ai   rgismy+p   h+ggip+gqrqlm y vsgt + vegddlhf
+  WP_012035370.1   3 VKETQKRFIKAMKKKFAEEPTAQ--VTKFKYEGYTQSKRKVEFKKTGDAIAKKRGISMYNPM-VHMGGIPLGQRQLMNYVVSGTDIAVEGDDLHF 94 
+                     5678************9876544..4579********************************5.8******************************* PP
+
+       alignmcrA  99 vnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvld 193
+                     vnnaamqqfwd+irrtviv +d ah tl+krlgk vtpeti +yl +lnhampgaavvqehmvethpgl ddc+vkvftgd+elad ++ q+vld
+  WP_012035370.1  95 VNNAAMQQFWDEIRRTVIVGLDTAHATLEKRLGKTVTPETISNYLAVLNHAMPGAAVVQEHMVETHPGLTDDCFVKVFTGDDELADSIDKQYVLD 189
+                     *********************************************************************************************** PP
+
+       alignmcrA 194 veklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnep 288
+                     ++k fp +qa  l  a+gk l+qa+hipt v rtcdggttsrwsamqigmsfi ay+mcageaavadl+faakha v++m +llparrargpnep
+  WP_012035370.1 190 INKAFPKEQAAQLKKAIGKQLFQAVHIPTIVVRTCDGGTTSRWSAMQIGMSFIDAYKMCAGEAAVADLAFAAKHASVVEMGNLLPARRARGPNEP 284
+                     *********************************************************************************************** PP
+
+       alignmcrA 289 gglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkp 383
+                     gg++fg+++divqt rkyp+dp k+sle v +g mlydqiwlgsymsggvgftqyataaytd+ild+f yyg dyik ky +         k kp
+  WP_012035370.1 285 GGVSFGFLADIVQTHRKYPDDPVKSSLETVASGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDDFCYYGYDYIKGKYGI--------AKAKP 371
+                     ********************************************************************************88........489** PP
+
+       alignmcrA 384 tydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsi 478
+                     t d+vnd+ tevtl  +eqye++pt +edhfggsqra v++aa+g+tt++atgn+nagl  wylsm lhk+ w rlgffgydlqdqcg++n +s 
+  WP_012035370.1 372 TMDVVNDIGTEVTLYGIEQYEKYPTTLEDHFGGSQRATVLSAAAGVTTSLATGNANAGLSAWYLSMYLHKEAWGRLGFFGYDLQDQCGATNVFSC 466
+                     *********************************************************************************************** PP
+
+       alignmcrA 479 rgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     r degai elrgpnypnyamnvghqg y+ i g +hygrgdaw+  p +ki+fad +l fdf+epr+efa+gairefmpagersl+ipa+
+  WP_012035370.1 467 RSDEGAIDELRGPNYPNYAMNVGHQGGYTGIAGAAHYGRGDAWVASPLIKIAFADKSLAFDFTEPRKEFARGAIREFMPAGERSLVIPAK 556
+                     ****************************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3039  (878464 residues searched)
+Passed MSV filter:                        81  (0.0266535); expected 60.8 (0.02)
+Passed bias filter:                       61  (0.0200724); expected 60.8 (0.02)
+Passed Vit filter:                         2  (0.000658111); expected 3.0 (0.001)
+Passed Fwd filter:                         1  (0.000329056); expected 0.0 (1e-05)
+Initial search space (Z):               3039  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.05u 0.01s 00:00:00.06 Elapsed: 00:00:00.03
+# Mc/sec: 13299.37
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_39.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   7.5e-288  953.5   5.2   8.5e-288  953.3   5.2    1.0  1  WP_012035370.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_012035370.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  953.3   5.2  2.8e-291  8.5e-288       4     568 .]       3     556 .]       1     556 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 953.3 bits;  conditional E-value: 2.8e-291
+       alignmcrA   4 iersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhf 98 
+                     ++ +qk f+ka+k+kf  +         +ky+g  qs rk+ef k+  ai   rgismy+p   h+ggip+gqrqlm y vsgt + vegddlhf
+  WP_012035370.1   3 VKETQKRFIKAMKKKFAEEPTAQ--VTKFKYEGYTQSKRKVEFKKTGDAIAKKRGISMYNPM-VHMGGIPLGQRQLMNYVVSGTDIAVEGDDLHF 94 
+                     5678************9876544..4579********************************5.8******************************* PP
+
+       alignmcrA  99 vnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvld 193
+                     vnnaamqqfwd+irrtviv +d ah tl+krlgk vtpeti +yl +lnhampgaavvqehmvethpgl ddc+vkvftgd+elad ++ q+vld
+  WP_012035370.1  95 VNNAAMQQFWDEIRRTVIVGLDTAHATLEKRLGKTVTPETISNYLAVLNHAMPGAAVVQEHMVETHPGLTDDCFVKVFTGDDELADSIDKQYVLD 189
+                     *********************************************************************************************** PP
+
+       alignmcrA 194 veklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnep 288
+                     ++k fp +qa  l  a+gk l+qa+hipt v rtcdggttsrwsamqigmsfi ay+mcageaavadl+faakha v++m +llparrargpnep
+  WP_012035370.1 190 INKAFPKEQAAQLKKAIGKQLFQAVHIPTIVVRTCDGGTTSRWSAMQIGMSFIDAYKMCAGEAAVADLAFAAKHASVVEMGNLLPARRARGPNEP 284
+                     *********************************************************************************************** PP
+
+       alignmcrA 289 gglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkp 383
+                     gg++fg+++divqt rkyp+dp k+sle v +g mlydqiwlgsymsggvgftqyataaytd+ild+f yyg dyik ky +         k kp
+  WP_012035370.1 285 GGVSFGFLADIVQTHRKYPDDPVKSSLETVASGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDDFCYYGYDYIKGKYGI--------AKAKP 371
+                     ********************************************************************************88........489** PP
+
+       alignmcrA 384 tydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsi 478
+                     t d+vnd+ tevtl  +eqye++pt +edhfggsqra v++aa+g+tt++atgn+nagl  wylsm lhk+ w rlgffgydlqdqcg++n +s 
+  WP_012035370.1 372 TMDVVNDIGTEVTLYGIEQYEKYPTTLEDHFGGSQRATVLSAAAGVTTSLATGNANAGLSAWYLSMYLHKEAWGRLGFFGYDLQDQCGATNVFSC 466
+                     *********************************************************************************************** PP
+
+       alignmcrA 479 rgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     r degai elrgpnypnyamnvghqg y+ i g +hygrgdaw+  p +ki+fad +l fdf+epr+efa+gairefmpagersl+ipa+
+  WP_012035370.1 467 RSDEGAIDELRGPNYPNYAMNVGHQGGYTGIAGAAHYGRGDAWVASPLIKIAFADKSLAFDFTEPRKEFARGAIREFMPAGERSLVIPAK 556
+                     ****************************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3039  (878464 residues searched)
+Passed MSV filter:                        81  (0.0266535); expected 60.8 (0.02)
+Passed bias filter:                       61  (0.0200724); expected 60.8 (0.02)
+Passed Vit filter:                         2  (0.000658111); expected 3.0 (0.001)
+Passed Fwd filter:                         1  (0.000329056); expected 0.0 (1e-05)
+Initial search space (Z):               3039  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 18812.14
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_40.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       1862  (541041 residues searched)
+Passed MSV filter:                        39  (0.0209452); expected 37.2 (0.02)
+Passed bias filter:                       38  (0.0204082); expected 37.2 (0.02)
+Passed Vit filter:                         3  (0.00161117); expected 1.9 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               1862  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 19686.38
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_41.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2403  (690732 residues searched)
+Passed MSV filter:                        63  (0.0262172); expected 48.1 (0.02)
+Passed bias filter:                       40  (0.0166459); expected 48.1 (0.02)
+Passed Vit filter:                         1  (0.000416146); expected 2.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               2403  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 24549.95
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_42.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   2.9e-258  856.0   4.1   3.4e-258  855.7   4.1    1.0  1  WP_048120720.1  MULTISPECIES: coenzyme-B sulfoethylthiotransf
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_048120720.1  MULTISPECIES: coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  855.7   4.1  9.9e-262  3.4e-258      17     568 .]      24     570 .]      10     570 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 855.7 bits;  conditional E-value: 9.9e-262
+       alignmcrA  17 ekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhfvnnaamqqfwddi 111
+                     +k  g d+   t ++ +  g  q prk+e++ka + i   rgis+y+p   h  g p+gqr +  y +sgt ++ e ddlh+vnnaamqq+wddi
+  WP_048120720.1  24 NKQTGGDITGKTEKFLR-LGPEQDPRKVEMIKAGKEIAEKRGISFYNPMM-H-SGAPLGQRAITPYTISGTDIVAEPDDLHYVNNAAMQQMWDDI 115
+                     56678888888766665.5899**************************74.4.689*************************************** PP
+
+       alignmcrA 112 rrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvldveklfpakqaeal 206
+                     rrt +v +d+ah+tl+krlgkevtpetin yl +lnhampgaavvqe mvethp lvddcyvkvftgd+ lad+++ q+++d++k f  +qa  +
+  WP_048120720.1 116 RRTCVVGLDMAHETLEKRLGKEVTPETINHYLEVLNHAMPGAAVVQEMMVETHPALVDDCYVKVFTGDDALADEIDKQYLIDINKEFSEEQAAQI 210
+                     *********************************************************************************************** PP
+
+       alignmcrA 207 saavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnepgglafglfsdivq 301
+                      a++gk+ wqaihipt vsrt dg  t+rw+amqigmsfi+ay mcageaavadlsfaakha  + m  +lparrargpnepggl+fg +sdi+q
+  WP_048120720.1 211 KASIGKTSWQAIHIPTIVSRTTDGAQTTRWAAMQIGMSFISAYAMCAGEAAVADLSFAAKHAAAVSMGEMLPARRARGPNEPGGLSFGHLSDIIQ 305
+                     *********************************************************************************************** PP
+
+       alignmcrA 302 tnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkptydivndmatevt 396
+                     t r   +dpak +levvgag mlydqiwlgsymsggvgftqyataaytd+ild+  yy +dyi+dky+    n   ++kvk + d+v+d+ate t
+  WP_048120720.1 306 TSRV-SKDPAKIALEVVGAGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDNNVYYDVDYINDKYNGA-ANVGKDNKVKASLDVVKDIATEST 398
+                     *985.79************************************************************965.7889999***************** PP
+
+       alignmcrA 397 lnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsirgdegaigelrgp 491
+                     l  +e ye+fpt +edhfggsqra v+aaa+g++ ++at n+nagl gwylsm lhk+ w rlgffg+dlqdqcg++n ls +gdeg   elrgp
+  WP_048120720.1 399 LYGIETYEKFPTALEDHFGGSQRATVLAAAAGVACSLATANANAGLSGWYLSMYLHKEAWGRLGFFGFDLQDQCGATNVLSYQGDEGLPDELRGP 493
+                     *********************************************************************************************** PP
+
+       alignmcrA 492 nypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     nypnyamnvghqg ya i   +h grgda+ ++p +k+cfad  l f+faeprref +ga+ref+pagersl+ipa+
+  WP_048120720.1 494 NYPNYAMNVGHQGGYAGIAQAAHSGRGDAFTVNPLIKVCFADDLLPFNFAEPRREFGRGAMREFVPAGERSLVIPAK 570
+                     ***************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3436  (1017542 residues searched)
+Passed MSV filter:                        65  (0.0189173); expected 68.7 (0.02)
+Passed bias filter:                       53  (0.0154249); expected 68.7 (0.02)
+Passed Vit filter:                         3  (0.000873108); expected 3.4 (0.001)
+Passed Fwd filter:                         1  (0.000291036); expected 0.0 (1e-05)
+Initial search space (Z):               3436  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 22778.30
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_43.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3857  (1196281 residues searched)
+Passed MSV filter:                        84  (0.0217786); expected 77.1 (0.02)
+Passed bias filter:                       58  (0.0150376); expected 77.1 (0.02)
+Passed Vit filter:                         6  (0.00155561); expected 3.9 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3857  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.03
+# Mc/sec: 20194.62
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_44.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   7.5e-288  953.5   5.2   8.5e-288  953.3   5.2    1.0  1  WP_012035370.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_012035370.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  953.3   5.2  2.8e-291  8.5e-288       4     568 .]       3     556 .]       1     556 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 953.3 bits;  conditional E-value: 2.8e-291
+       alignmcrA   4 iersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhf 98 
+                     ++ +qk f+ka+k+kf  +         +ky+g  qs rk+ef k+  ai   rgismy+p   h+ggip+gqrqlm y vsgt + vegddlhf
+  WP_012035370.1   3 VKETQKRFIKAMKKKFAEEPTAQ--VTKFKYEGYTQSKRKVEFKKTGDAIAKKRGISMYNPM-VHMGGIPLGQRQLMNYVVSGTDIAVEGDDLHF 94 
+                     5678************9876544..4579********************************5.8******************************* PP
+
+       alignmcrA  99 vnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvld 193
+                     vnnaamqqfwd+irrtviv +d ah tl+krlgk vtpeti +yl +lnhampgaavvqehmvethpgl ddc+vkvftgd+elad ++ q+vld
+  WP_012035370.1  95 VNNAAMQQFWDEIRRTVIVGLDTAHATLEKRLGKTVTPETISNYLAVLNHAMPGAAVVQEHMVETHPGLTDDCFVKVFTGDDELADSIDKQYVLD 189
+                     *********************************************************************************************** PP
+
+       alignmcrA 194 veklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnep 288
+                     ++k fp +qa  l  a+gk l+qa+hipt v rtcdggttsrwsamqigmsfi ay+mcageaavadl+faakha v++m +llparrargpnep
+  WP_012035370.1 190 INKAFPKEQAAQLKKAIGKQLFQAVHIPTIVVRTCDGGTTSRWSAMQIGMSFIDAYKMCAGEAAVADLAFAAKHASVVEMGNLLPARRARGPNEP 284
+                     *********************************************************************************************** PP
+
+       alignmcrA 289 gglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkp 383
+                     gg++fg+++divqt rkyp+dp k+sle v +g mlydqiwlgsymsggvgftqyataaytd+ild+f yyg dyik ky +         k kp
+  WP_012035370.1 285 GGVSFGFLADIVQTHRKYPDDPVKSSLETVASGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDDFCYYGYDYIKGKYGI--------AKAKP 371
+                     ********************************************************************************88........489** PP
+
+       alignmcrA 384 tydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsi 478
+                     t d+vnd+ tevtl  +eqye++pt +edhfggsqra v++aa+g+tt++atgn+nagl  wylsm lhk+ w rlgffgydlqdqcg++n +s 
+  WP_012035370.1 372 TMDVVNDIGTEVTLYGIEQYEKYPTTLEDHFGGSQRATVLSAAAGVTTSLATGNANAGLSAWYLSMYLHKEAWGRLGFFGYDLQDQCGATNVFSC 466
+                     *********************************************************************************************** PP
+
+       alignmcrA 479 rgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     r degai elrgpnypnyamnvghqg y+ i g +hygrgdaw+  p +ki+fad +l fdf+epr+efa+gairefmpagersl+ipa+
+  WP_012035370.1 467 RSDEGAIDELRGPNYPNYAMNVGHQGGYTGIAGAAHYGRGDAWVASPLIKIAFADKSLAFDFTEPRKEFARGAIREFMPAGERSLVIPAK 556
+                     ****************************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3039  (878464 residues searched)
+Passed MSV filter:                        81  (0.0266535); expected 60.8 (0.02)
+Passed bias filter:                       61  (0.0200724); expected 60.8 (0.02)
+Passed Vit filter:                         2  (0.000658111); expected 3.0 (0.001)
+Passed Fwd filter:                         1  (0.000329056); expected 0.0 (1e-05)
+Initial search space (Z):               3039  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 19855.09
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_45.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   2.9e-258  856.0   4.1   3.4e-258  855.7   4.1    1.0  1  WP_048120720.1  MULTISPECIES: coenzyme-B sulfoethylthiotransf
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_048120720.1  MULTISPECIES: coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  855.7   4.1  9.9e-262  3.4e-258      17     568 .]      24     570 .]      10     570 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 855.7 bits;  conditional E-value: 9.9e-262
+       alignmcrA  17 ekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhfvnnaamqqfwddi 111
+                     +k  g d+   t ++ +  g  q prk+e++ka + i   rgis+y+p   h  g p+gqr +  y +sgt ++ e ddlh+vnnaamqq+wddi
+  WP_048120720.1  24 NKQTGGDITGKTEKFLR-LGPEQDPRKVEMIKAGKEIAEKRGISFYNPMM-H-SGAPLGQRAITPYTISGTDIVAEPDDLHYVNNAAMQQMWDDI 115
+                     56678888888766665.5899**************************74.4.689*************************************** PP
+
+       alignmcrA 112 rrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvldveklfpakqaeal 206
+                     rrt +v +d+ah+tl+krlgkevtpetin yl +lnhampgaavvqe mvethp lvddcyvkvftgd+ lad+++ q+++d++k f  +qa  +
+  WP_048120720.1 116 RRTCVVGLDMAHETLEKRLGKEVTPETINHYLEVLNHAMPGAAVVQEMMVETHPALVDDCYVKVFTGDDALADEIDKQYLIDINKEFSEEQAAQI 210
+                     *********************************************************************************************** PP
+
+       alignmcrA 207 saavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnepgglafglfsdivq 301
+                      a++gk+ wqaihipt vsrt dg  t+rw+amqigmsfi+ay mcageaavadlsfaakha  + m  +lparrargpnepggl+fg +sdi+q
+  WP_048120720.1 211 KASIGKTSWQAIHIPTIVSRTTDGAQTTRWAAMQIGMSFISAYAMCAGEAAVADLSFAAKHAAAVSMGEMLPARRARGPNEPGGLSFGHLSDIIQ 305
+                     *********************************************************************************************** PP
+
+       alignmcrA 302 tnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkptydivndmatevt 396
+                     t r   +dpak +levvgag mlydqiwlgsymsggvgftqyataaytd+ild+  yy +dyi+dky+    n   ++kvk + d+v+d+ate t
+  WP_048120720.1 306 TSRV-SKDPAKIALEVVGAGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDNNVYYDVDYINDKYNGA-ANVGKDNKVKASLDVVKDIATEST 398
+                     *985.79************************************************************965.7889999***************** PP
+
+       alignmcrA 397 lnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsirgdegaigelrgp 491
+                     l  +e ye+fpt +edhfggsqra v+aaa+g++ ++at n+nagl gwylsm lhk+ w rlgffg+dlqdqcg++n ls +gdeg   elrgp
+  WP_048120720.1 399 LYGIETYEKFPTALEDHFGGSQRATVLAAAAGVACSLATANANAGLSGWYLSMYLHKEAWGRLGFFGFDLQDQCGATNVLSYQGDEGLPDELRGP 493
+                     *********************************************************************************************** PP
+
+       alignmcrA 492 nypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     nypnyamnvghqg ya i   +h grgda+ ++p +k+cfad  l f+faeprref +ga+ref+pagersl+ipa+
+  WP_048120720.1 494 NYPNYAMNVGHQGGYAGIAQAAHSGRGDAFTVNPLIKVCFADDLLPFNFAEPRREFGRGAMREFVPAGERSLVIPAK 570
+                     ***************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3436  (1017542 residues searched)
+Passed MSV filter:                        65  (0.0189173); expected 68.7 (0.02)
+Passed bias filter:                       53  (0.0154249); expected 68.7 (0.02)
+Passed Vit filter:                         3  (0.000873108); expected 3.4 (0.001)
+Passed Fwd filter:                         1  (0.000291036); expected 0.0 (1e-05)
+Initial search space (Z):               3436  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.03
+# Mc/sec: 18132.21
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_46.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       1862  (541041 residues searched)
+Passed MSV filter:                        39  (0.0209452); expected 37.2 (0.02)
+Passed bias filter:                       38  (0.0204082); expected 37.2 (0.02)
+Passed Vit filter:                         3  (0.00161117); expected 1.9 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               1862  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 20453.17
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_47.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       2403  (690732 residues searched)
+Passed MSV filter:                        63  (0.0262172); expected 48.1 (0.02)
+Passed bias filter:                       40  (0.0166459); expected 48.1 (0.02)
+Passed Vit filter:                         1  (0.000416146); expected 2.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               2403  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 24718.37
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_48.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   7.5e-288  953.5   5.2   8.5e-288  953.3   5.2    1.0  1  WP_012035370.1  coenzyme-B sulfoethylthiotransferase subunit 
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_012035370.1  coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  953.3   5.2  2.8e-291  8.5e-288       4     568 .]       3     556 .]       1     556 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 953.3 bits;  conditional E-value: 2.8e-291
+       alignmcrA   4 iersqklflkalkekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhf 98 
+                     ++ +qk f+ka+k+kf  +         +ky+g  qs rk+ef k+  ai   rgismy+p   h+ggip+gqrqlm y vsgt + vegddlhf
+  WP_012035370.1   3 VKETQKRFIKAMKKKFAEEPTAQ--VTKFKYEGYTQSKRKVEFKKTGDAIAKKRGISMYNPM-VHMGGIPLGQRQLMNYVVSGTDIAVEGDDLHF 94 
+                     5678************9876544..4579********************************5.8******************************* PP
+
+       alignmcrA  99 vnnaamqqfwddirrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvld 193
+                     vnnaamqqfwd+irrtviv +d ah tl+krlgk vtpeti +yl +lnhampgaavvqehmvethpgl ddc+vkvftgd+elad ++ q+vld
+  WP_012035370.1  95 VNNAAMQQFWDEIRRTVIVGLDTAHATLEKRLGKTVTPETISNYLAVLNHAMPGAAVVQEHMVETHPGLTDDCFVKVFTGDDELADSIDKQYVLD 189
+                     *********************************************************************************************** PP
+
+       alignmcrA 194 veklfpakqaealsaavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnep 288
+                     ++k fp +qa  l  a+gk l+qa+hipt v rtcdggttsrwsamqigmsfi ay+mcageaavadl+faakha v++m +llparrargpnep
+  WP_012035370.1 190 INKAFPKEQAAQLKKAIGKQLFQAVHIPTIVVRTCDGGTTSRWSAMQIGMSFIDAYKMCAGEAAVADLAFAAKHASVVEMGNLLPARRARGPNEP 284
+                     *********************************************************************************************** PP
+
+       alignmcrA 289 gglafglfsdivqtnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkp 383
+                     gg++fg+++divqt rkyp+dp k+sle v +g mlydqiwlgsymsggvgftqyataaytd+ild+f yyg dyik ky +         k kp
+  WP_012035370.1 285 GGVSFGFLADIVQTHRKYPDDPVKSSLETVASGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDDFCYYGYDYIKGKYGI--------AKAKP 371
+                     ********************************************************************************88........489** PP
+
+       alignmcrA 384 tydivndmatevtlnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsi 478
+                     t d+vnd+ tevtl  +eqye++pt +edhfggsqra v++aa+g+tt++atgn+nagl  wylsm lhk+ w rlgffgydlqdqcg++n +s 
+  WP_012035370.1 372 TMDVVNDIGTEVTLYGIEQYEKYPTTLEDHFGGSQRATVLSAAAGVTTSLATGNANAGLSAWYLSMYLHKEAWGRLGFFGYDLQDQCGATNVFSC 466
+                     *********************************************************************************************** PP
+
+       alignmcrA 479 rgdegaigelrgpnypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     r degai elrgpnypnyamnvghqg y+ i g +hygrgdaw+  p +ki+fad +l fdf+epr+efa+gairefmpagersl+ipa+
+  WP_012035370.1 467 RSDEGAIDELRGPNYPNYAMNVGHQGGYTGIAGAAHYGRGDAWVASPLIKIAFADKSLAFDFTEPRKEFARGAIREFMPAGERSLVIPAK 556
+                     ****************************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3039  (878464 residues searched)
+Passed MSV filter:                        81  (0.0266535); expected 60.8 (0.02)
+Passed bias filter:                       61  (0.0200724); expected 60.8 (0.02)
+Passed Vit filter:                         2  (0.000658111); expected 3.0 (0.001)
+Passed Fwd filter:                         1  (0.000329056); expected 0.0 (1e-05)
+Initial search space (Z):               3039  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 20430.82
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_49.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3857  (1196281 residues searched)
+Passed MSV filter:                        84  (0.0217786); expected 77.1 (0.02)
+Passed bias filter:                       58  (0.0150376); expected 77.1 (0.02)
+Passed Vit filter:                         6  (0.00155561); expected 3.9 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               3857  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.03
+# Mc/sec: 17217.46
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcrabuilt.hmm
+# target sequence database:        proteomes/proteome_50.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alignmcrA  [M=568]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   2.9e-258  856.0   4.1   3.4e-258  855.7   4.1    1.0  1  WP_048120720.1  MULTISPECIES: coenzyme-B sulfoethylthiotransf
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_048120720.1  MULTISPECIES: coenzyme-B sulfoethylthiotransferase subunit alpha 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  855.7   4.1  9.9e-262  3.4e-258      17     568 .]      24     570 .]      10     570 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 855.7 bits;  conditional E-value: 9.9e-262
+       alignmcrA  17 ekfqgqdvqsdtaeyykyngvrqsprkmefmkasraiemdrgismydperahlggipmgqrqlmtyevsgtgvfvegddlhfvnnaamqqfwddi 111
+                     +k  g d+   t ++ +  g  q prk+e++ka + i   rgis+y+p   h  g p+gqr +  y +sgt ++ e ddlh+vnnaamqq+wddi
+  WP_048120720.1  24 NKQTGGDITGKTEKFLR-LGPEQDPRKVEMIKAGKEIAEKRGISFYNPMM-H-SGAPLGQRAITPYTISGTDIVAEPDDLHYVNNAAMQQMWDDI 115
+                     56678888888766665.5899**************************74.4.689*************************************** PP
+
+       alignmcrA 112 rrtvivnmdlahqtlqkrlgkevtpetineylhilnhampgaavvqehmvethpglvddcyvkvftgdqeladdlepqfvldveklfpakqaeal 206
+                     rrt +v +d+ah+tl+krlgkevtpetin yl +lnhampgaavvqe mvethp lvddcyvkvftgd+ lad+++ q+++d++k f  +qa  +
+  WP_048120720.1 116 RRTCVVGLDMAHETLEKRLGKEVTPETINHYLEVLNHAMPGAAVVQEMMVETHPALVDDCYVKVFTGDDALADEIDKQYLIDINKEFSEEQAAQI 210
+                     *********************************************************************************************** PP
+
+       alignmcrA 207 saavgkslwqaihiptavsrtcdggttsrwsamqigmsfiaayrmcageaavadlsfaakhagviqmasllparrargpnepgglafglfsdivq 301
+                      a++gk+ wqaihipt vsrt dg  t+rw+amqigmsfi+ay mcageaavadlsfaakha  + m  +lparrargpnepggl+fg +sdi+q
+  WP_048120720.1 211 KASIGKTSWQAIHIPTIVSRTTDGAQTTRWAAMQIGMSFISAYAMCAGEAAVADLSFAAKHAAAVSMGEMLPARRARGPNEPGGLSFGHLSDIIQ 305
+                     *********************************************************************************************** PP
+
+       alignmcrA 302 tnrkypndpakaslevvgagtmlydqiwlgsymsggvgftqyataaytdnildeftyygmdyikdkykvdwknpsandkvkptydivndmatevt 396
+                     t r   +dpak +levvgag mlydqiwlgsymsggvgftqyataaytd+ild+  yy +dyi+dky+    n   ++kvk + d+v+d+ate t
+  WP_048120720.1 306 TSRV-SKDPAKIALEVVGAGCMLYDQIWLGSYMSGGVGFTQYATAAYTDDILDNNVYYDVDYINDKYNGA-ANVGKDNKVKASLDVVKDIATEST 398
+                     *985.79************************************************************965.7889999***************** PP
+
+       alignmcrA 397 lnameqyeqfptmmedhfggsqragviaaasglttaiatgnsnaglngwylsmllhkdgwsrlgffgydlqdqcgsanslsirgdegaigelrgp 491
+                     l  +e ye+fpt +edhfggsqra v+aaa+g++ ++at n+nagl gwylsm lhk+ w rlgffg+dlqdqcg++n ls +gdeg   elrgp
+  WP_048120720.1 399 LYGIETYEKFPTALEDHFGGSQRATVLAAAAGVACSLATANANAGLSGWYLSMYLHKEAWGRLGFFGFDLQDQCGATNVLSYQGDEGLPDELRGP 493
+                     *********************************************************************************************** PP
+
+       alignmcrA 492 nypnyamnvghqgeyaaivggshygrgdawcfdprvkicfadpalkfdfaeprrefakgairefmpagersliipar 568
+                     nypnyamnvghqg ya i   +h grgda+ ++p +k+cfad  l f+faeprref +ga+ref+pagersl+ipa+
+  WP_048120720.1 494 NYPNYAMNVGHQGGYAGIAQAAHSGRGDAFTVNPLIKVCFADDLLPFNFAEPRREFGRGAMREFVPAGERSLVIPAK 570
+                     ***************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (568 nodes)
+Target sequences:                       3436  (1017542 residues searched)
+Passed MSV filter:                        65  (0.0189173); expected 68.7 (0.02)
+Passed bias filter:                       53  (0.0154249); expected 68.7 (0.02)
+Passed Vit filter:                         3  (0.000873108); expected 3.4 (0.001)
+Passed Fwd filter:                         1  (0.000291036); expected 0.0 (1e-05)
+Initial search space (Z):               3436  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 22473.60
 //
 [ok]

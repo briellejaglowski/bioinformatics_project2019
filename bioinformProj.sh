@@ -18,6 +18,13 @@ PATH=$PATH:~/Private/bin/bin
 hmmbuild mcrabuilt.hmm alignmcrA.afa
 
 #hmmsearch for mcrAgene in proteomes
-hmmsearch mcrabuilt.hmm proteomes/proteome_*.fasta #need to make a for loop
-  
+#hmmsearch mcrabuilt.hmm proteomes/proteome_*.fasta #need to make a for loop
 
+#for loop with hmmsearch to compare with built aligned sequences with proteomes 1 through 50
+for N in {1..50}
+do 
+hmmsearch mcrabuilt.hmm proteomes/proteome_$N.fasta > mcra.out
+done
+
+#hsp70
+#cat all hsp70 gene reference sequences into one file

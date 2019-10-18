@@ -22,14 +22,11 @@ hmmbuild mcrabuilt.hmm alignmcrA.afa
 #for loop with hmmsearch to compare with built aligned mcrA sequences with proteomes 1 through 50
 for N in {01..50}
 do
-hmmsearch mcrabuilt.hmm proteomes/proteome_$N.fasta > output/mcra_$N.out
+hmmsearch mcrabuilt.hmm proteomes/proteome_$N.fasta >> mcra.out
 done
 
-#need to insert code here to select suitable proteomes from mcra.out
-for N in {01..50}
-do
-grep 
-done
+#need to insert code here to select suitable proteomes from mcra outputs
+cat mcra.out | grep -v '^#' > selected.out 
 
 #hsp70
 #cat all hsp70 gene reference sequences into one file

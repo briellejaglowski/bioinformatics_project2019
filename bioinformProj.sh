@@ -17,6 +17,6 @@ PATH=$PATH:~/Private/bin/bin
 #hmmbuild for aligned mcrAgene
 hmmbuild mcrabuilt.hmm alignmcrA.afa
 
-#hmmsearch for mcrAgene
-#hmmsearch -g mcrabuilt.hmm alignmcrA.afa > mcra.out
+#hmmsearch for mcrAgene in proteomes
+#hmmsearch -g mcrabuilt.hmm proteomes/proteome_*.fasta > mrcAProteome.out
 

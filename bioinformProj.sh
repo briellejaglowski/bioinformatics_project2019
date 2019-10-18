@@ -1,12 +1,22 @@
+
 #shell script for Bioinformatic projects
+#usage: bash bioinformProj.sh "$@"
 
 #mcrA
-#cat all reference sequences into one file
-cat *.fasta >> "combined.fasta"
-#Use muscle to align reference sequences.
-./muscle3.8.31_i86linux.32 -in combined.fasta -out aligned.fasta
-#hmmbuild
-hmmbuild mcrabuilt.hmm aligned.fasta
-#hmmsearch
-hmmsearch -g mcrabuilt.hmm aligned.fasta > mcra.out
+#cat all mcrA gene reference sequences into one file
+#usage: "$@" = ref_sequences/mcrAgene_*.fasta
+#This works!
+cat "$@" > ref_sequences/combmcrA.fasta
+
+#muscle to align mcrAgene reference sequences
+./muscle3.8.31_i86linux64 -in ref_sequences/combmcrA.fasta -out alignmcrA.afa
+
+# Path to hmmr files
+PATH=$PATH:~/Private/bin/bin
+ 
+#hmmbuild for aligned mcrAgene
+hmmbuild mcrabuilt.hmm alignmcrA.afa
+
+#hmmsearch for mcrAgene in proteomes
+#hmmsearch mcrabuilt.hmm proteomes/proteome_*.fasta > mrcAProteome.out
 

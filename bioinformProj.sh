@@ -26,6 +26,10 @@ hmmsearch mcrabuilt.hmm proteomes/proteome_$N.fasta > output/mcra_$N.out
 done
 
 #need to insert code here to select suitable proteomes from mcra.out
+for N in {01..50}
+do
+grep 
+done
 
 #hsp70
 #cat all hsp70 gene reference sequences into one file

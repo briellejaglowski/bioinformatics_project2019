@@ -28,3 +28,5 @@ done
 
 #hsp70
 #cat all hsp70 gene reference sequences into one file
+#usage: "$@" = ref_sequences/hsp70gene_*.fasta
+cat "$@" > ref_sequences/combhsp70.fasta

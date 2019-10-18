@@ -29,10 +29,10 @@ done
 #hsp70
 #cat all hsp70 gene reference sequences into one file
 #usage: "$@" = ref_sequences/hsp70gene_*.fasta
-cat "$@" > ref_sequences/combhsp70.fasta
+#cat "$@" > ref_sequences/combhsp70.fasta
 
 #muscle to align hsp70gene reference sequences
-./muscle3.8.31_i86linux64 -in ref_sequences/combhsp70.fasta -out alignhsp70.afa
+#./muscle3.8.31_i86linux64 -in ref_sequences/combhsp70.fasta -out alignhsp70.afa
 
 #Path to hmmr files
 PATH=$PATH:~/Private/bin/bin

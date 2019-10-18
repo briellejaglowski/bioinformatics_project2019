@@ -34,3 +34,10 @@ cat "$@" > ref_sequences/combhsp70.fasta
 #muscle to align hsp70gene reference sequences
 ./muscle3.8.31_i86linux64 -in ref_sequences/combhsp70.fasta -out alignhsp70.afa
 
+#Path to hmmr files
+PATH=$PATH:~/Private/bin/bin
+
+#hmmbuild for aligned hsp70gene
+hmmbuild hsp70built.hmm alignhsp70.afa
+
+

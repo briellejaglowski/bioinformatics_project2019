@@ -21,9 +21,9 @@ hmmbuild mcrabuilt.hmm alignmcrA.afa
 #hmmsearch mcrabuilt.hmm proteomes/proteome_*.fasta #need to make a for loop
 
 #for loop with hmmsearch to compare with built aligned mcrA sequences with proteomes 1 through 50
-for N in {1..50}
+for file in *.fasta
 do 
-hmmsearch mcrabuilt.hmm proteomes/proteome_$N.fasta > mcra.out
+hmmsearch mcrabuilt.hmm proteomes/$file > mcra.out
 done
 
 #hsp70

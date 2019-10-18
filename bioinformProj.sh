@@ -8,7 +8,7 @@
 cat "$@" > combined.fasta
 
 #muscle to align reference sequences
-./muscle3.8.31_i86linux64 -in combined.fasta -out aligned.fasta
+./muscle3.8.31_i86linux64 -in combined.fasta -out aligned.afa
 
 # Path to hmmr files
 PATH=$PATH:~/Private/bin/bin

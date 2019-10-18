@@ -8,15 +8,15 @@
 #This works!
 cat "$@" > ref_sequences/combmcrA.fasta
 
-#muscle to align reference sequences
-./muscle3.8.31_i86linux64 -in ref_sequences/combmcrA.fasta -out aligned.afa
+#muscle to align mcrAgene reference sequences
+./muscle3.8.31_i86linux64 -in ref_sequences/combmcrA.fasta -out alignmcrA.afa
 
 # Path to hmmr files
 PATH=$PATH:~/Private/bin/bin
  
-#hmmbuild
-hmmbuild mcrabuilt.hmm aligned.afa
+#hmmbuild for aligned mcrAgene
+hmmbuild mcrabuilt.hmm alignmcrA.afa
 
-#hmmsearch
-#hmmsearch -g mcrabuilt.hmm aligned.afa > mcra.out
+#hmmsearch for mcrAgene
+#hmmsearch -g mcrabuilt.hmm alignmcrA.afa > mcra.out
 

@@ -30,3 +30,7 @@ done
 #cat all hsp70 gene reference sequences into one file
 #usage: "$@" = ref_sequences/hsp70gene_*.fasta
 cat "$@" > ref_sequences/combhsp70.fasta
+
+#muscle to align hsp70gene reference sequences
+./muscle3.8.31_i86linux64 -in ref_sequences/combhsp70.fasta -out alignhsp70.afa
+

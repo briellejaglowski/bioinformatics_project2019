@@ -1,11 +1,11 @@
 
 #shell script for Bioinformatic projects
-
+#usage: bash bioinformProj.sh "$@"
 
 #mcrA
-#cat all reference sequences into one file
-#usage: "$@" is fasta files in proteomes
-cat *.fasta > "combined.fasta"
+#cat all mcrA gene reference sequences into one file
+#usage: "$@" = ref_sequences/mcrAgene_$$.fasta
+cat "$@" > combined.fasta
 
 #muscle to align reference sequences
 ./muscle3.8.31_i86linux64 -in combined.fasta -out aligned.fasta

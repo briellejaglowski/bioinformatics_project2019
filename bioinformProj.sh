@@ -5,12 +5,14 @@
 #mcrA
 #cat all reference sequences into one file
 #usage: "$@" is fasta files in proteomes
-cat "$@" >> "$combined.fasta"
-cat *.fasta >> "combined.fasta"
+#cat "$@" >> "$combined.fasta"
+cat *.fasta > "combined.fasta"
 #muscle to align reference sequences.
-muscle -in combined.fasta -out aligned.fasta
+./muscle3.8.31_i86linux64 -in combined.fasta -out aligned.fasta
+#John's path to hmmr files
+PATH=$PATH:~/Private/bin/bin 
 #hmmbuild
 hmmbuild mcrabuilt.hmm aligned.fasta
 #hmmsearch
-hmmsearch -g mcrabuilt.hmm aligned.fasta > mcra.out
+#hmmsearch -g mcrabuilt.hmm aligned.fasta > mcra.out
 

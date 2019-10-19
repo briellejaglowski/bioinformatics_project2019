@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_011954235.1       -          alignhsp70           -           3.2e-237  785.5   2.6  3.8e-237  785.3   2.6   1.0   1   0   0   1   1   1   1 MULTISPECIES: coenzyme-B sulfoethylthiotransferase subunit alpha 
+WP_011954158.1       -          alignhsp70           -           1.8e-233  773.2   0.9  2.1e-233  772.9   0.9   1.0   1   0   0   1   1   1   1 MULTISPECIES: coenzyme-B sulfoethylthiotransferase subunit alpha 
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70built.hmm
+# Target file:     proteomes/proteome_23.fasta
+# Option settings: hmmsearch --tblout hsp70_23.out hsp70built.hmm proteomes/proteome_23.fasta 
+# Current dir:     /afs/crc.nd.edu/user/j/jcaffare/BioInformatics/bioinformatics_project2019
+# Date:            Fri Oct 18 20:17:20 2019
+# [ok]

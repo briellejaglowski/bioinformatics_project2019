@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_000165359.1       -          alignhsp70           -              0.015   11.9   0.0     0.025   11.2   0.0   1.2   1   0   0   1   1   1   0 ribonuclease R 
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70built.hmm
+# Target file:     proteomes/proteome_43.fasta
+# Option settings: hmmsearch --tblout hsp70_43.out hsp70built.hmm proteomes/proteome_43.fasta 
+# Current dir:     /afs/crc.nd.edu/user/j/jcaffare/BioInformatics/bioinformatics_project2019
+# Date:            Fri Oct 18 20:17:21 2019
+# [ok]
